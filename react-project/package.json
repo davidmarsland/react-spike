@@ -1,0 +1,26 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "Test project for React training",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "build-watch": "./node_modules/.bin/webpack -w"
+  },
+  "author": "David Marsland",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "6.13.2",
+    "babel-loader": "6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "webpack": "^1.15.0"
+  }
+}
