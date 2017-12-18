@@ -1,134 +1,135 @@
-Setup for 
-React Training Macy's Learning Spike 
+ 
+### React Training Macy's Learning Spike 
 
-Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly
-growing web applications.
+* Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications.
 
-Prerequisites: Advanced knowledge of JavaScript that includes Object Oriented concepts,
-Ajax, promises, prototypal inheritance, ES6 and module design patterns.
+* Prerequisites: Advanced knowledge of JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns.
 
-If you don't know ES6, aka ES2015, this is a great free intro course:
-CodeSchool ES2015: The Shape of JavaScript to Come
-http://campus.codeschool.com/courses/es2015-the-shape-of-javascript-to-come
+* If you don't know ES6, aka ES2015, this is a great free intro course:
+
+<a target="_ref" href="http://campus.codeschool.com/courses/es2015-the-shape-of-javascript-to-come">CodeSchool ES2015: The Shape of JavaScript to Come</a>
 
 ---
-Setup
+###  Setup
 
-Install Node.js LTS from https://nodejs.org/
+* Install Node.js LTS from <a target="_setup" href="https://nodejs.org/">https://nodejs.org/</a>
 
-Add node to your path, then
+* Add node to your path, then
 In a terminal, cmd prompt, or powershell:
 
+```
 node -v
+```
 Should be >= 8.0
-
-npm -v 
+```
+npm -v
+``` 
 Should be greater than 5.0.
 
 ---
-For this course you'll need either a Text Editor or an IDE.
+### For this course you'll need either a Text Editor or an IDE.
 
 Recommended Text Editors:
-Visual Studio Code: install from https://code.visualstudio.com/
+Visual Studio Code: install from <a target="_setup" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>
 or
 Sublime Text
-https://www.sublimetext.com/
-
+<a target="_setup" href="https://www.sublimetext.com/">https://www.sublimetext.com/</a>
 ---
-Recommended IDEs
+### Recommended IDEs
 Jetbrains IDEs, either WebStorm or IntelliJ.
-http://www.jetbrains.com/
+<a target="_setup" href="http://www.jetbrains.com/">http://www.jetbrains.com/</a>
 
 ---
-Install eslint
+### Install eslint
+```
 npm install -g eslint
-
+```
 We'll do more setup in class as needed.
 
 ---
-The Evolution of the Web
-http://www.evolutionoftheweb.com/
+### Setting Up Your React Dev Environment Easily
+<a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
+---
+### The Evolution of the Web
+<a target="_ref" href="http://www.evolutionoftheweb.com/">http://www.evolutionoftheweb.com/</a>
 
-A Brief History of the Web
-https://blog.keepsite.com/a-brief-history-of-the-web-809509ba23df
+### A Brief History of the Web
+<a target="_ref" href="https://blog.keepsite.com/a-brief-history-of-the-web-809509ba23df">
+https://blog.keepsite.com/a-brief-history-of-the-web-809509ba23df</a>
 
-The (R)Evolution of Web Development by Mark Erikson
-http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/#/?_k=8f5q6o
+<a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/#/?_k=8f5q6o">
+The (R)Evolution of Web Development by Mark Erikson</a>
 
 ---
-Modern Web Development with React and Redux by Mark Erikson
-http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/23
+### React and Redux
+<a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/23">
+Modern Web Development with React and Redux by Mark Erikson</a>
+
+### Think In React
+<a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">
+https://reactjs.org/docs/thinking-in-react.html</a>
 
 ---
-Resources:
-Think In React
-https://reactjs.org/docs/thinking-in-react.html
+### Course Materials
 
----
-Course Materials
-
-React Foundation by Azat Mardan
-https://github.com/azat-co/react-foundation
+#### React Foundation by Azat Mardan
+<a target="_reactf" href="https://github.com/azat-co/react-foundation">
+https://github.com/azat-co/react-foundation</a>
 
 Download zip or clone.
 ---
-Course Outline
-https://github.com/azat-co/react-foundation/blob/master/README.md
 
-Intro
-https://github.com/azat-co/react-foundation/blob/master/react-intro.md
----
-Module 1
-https://github.com/azat-co/react-foundation/blob/master/react-01.md
+<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/README.md">
+Course Outline</a>
 
-Changing the State example
-http://plnkr.co/edit/S2gjlc?p=preview
-
+<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-intro.md">Course Intro</a>
 ---
-Module 2
-https://github.com/azat-co/react-foundation/blob/master/react-02.md
+### Module 1
+<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md">Module 1</a>
+<a target="_plunk" href="http://plnkr.co/edit/S2gjlc?p=preview">
+Changing the State example</a>
+<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-02.md">Module 2</a>
+<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-03.md">Module 3</a>
+<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-04.md">Module 4</a>
+<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">
+React Foundation Summary</a>
 ---
-Module 3
-https://github.com/azat-co/react-foundation/blob/master/react-03.md
----
-Module 4
-https://github.com/azat-co/react-foundation/blob/master/react-04.md
----
-React Foundation Summary
-https://github.com/azat-co/react-foundation/blob/master/react-outro.md
----
-Flux
-http://facebook.github.io/flux/docs/in-depth-overview.html#content
+### Flux
+<a target="_ref" href="http://facebook.github.io/flux/docs/in-depth-overview.html#content">Flux from Facebook
 
 ---
-Redux
-https://redux.js.org/
+### Redux
+<a target="_ref" href="https://redux.js.org/">redux.js.org</a>
 
-State Management with Redux
-http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/33
+<a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/33">
+State Management with Redux</a>
 ---
-Redux Example Incrementer
-https://csb-62zvqom7kk-janthncuwn.now.sh/
+### Redux example and Lab
+<a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh/">
+Redux Example Incrementer</a>
 
 ### Lab: Port Counter State to Redux
 
-
-Redux Course Notes
-https://github.com/tayiorbeii/egghead.io_redux_course_notes
+---
+### Redux Course Notes
+<a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">
+Redux Course Notes</a>
 
 Free Course Videos from Dan Abramov
 Learn Redux from its creator:
-Part 1: Getting Started with Redux (30 free videos)
-https://egghead.io/series/getting-started-with-redux
 
-Part 2: Building React Applications with Idiomatic Redux (27 free videos)
-https://egghead.io/courses/building-react-applications-with-idiomatic-redux
+<a target="_ref" href="https://egghead.io/series/getting-started-with-redux">
+Part 1: Getting Started with Redux (30 free videos)</a>
+
+<a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">
+Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 
 
-Wes Bos Redux Video Course
 https://courses.wesbos.com/account/access/5a34aee80e25892227e21408
+Wes Bos Redux Video Course
 
 https://medium.com/netscape/my-recommended-free-resources-to-learn-react-68f4d20a8dc1
+Free Resources to Learn React
 
 Code Sandbox
 https://codesandbox.io/s/62zvqom7kk
@@ -194,28 +195,4 @@ app.js.map  2.62 kB       0  [emitted]  main
    [0] ./src/app.jsx 2.78 kB {0} [built] [failed] [1 error]
 
 ERROR in ./src/app.jsx
-Module build failed: ReferenceError: [BABEL] C:\Users\david\git\react-quickly\ch20\autocomplete\src\app.jsx: Unknown option: C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\react\react.js.Children. Check out http://babeljs.io/docs/usage/options/ for more info
-    at Logger.error (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\logger.js:41:11)
-    at OptionManager.mergeOptions (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\options\option-manager.js:290:20)
-    at C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\options\option-manager.js:371:14
-    at C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\options\option-manager.js:392:24
-    at Array.map (<anonymous>)
-    at OptionManager.resolvePresets (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\options\option-manager.js:387:20)
-    at OptionManager.mergePresets (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\options\option-manager.js:370:10)
-    at OptionManager.mergeOptions (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\options\option-manager.js:330:14)
-    at OptionManager.addConfig (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\options\option-manager.js:232:10)
-    at OptionManager.findConfigs (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\options\option-manager.js:442:30)
-    at OptionManager.init (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\options\option-manager.js:484:12)
-    at File.initOptions (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\index.js:223:65)
-    at new File (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\file\index.js:140:24)
-    at Pipeline.transform (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-core\lib\transformation\pipeline.js:46:16)
-    at transpile (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-loader\lib\index.js:46:20)
-    at Object.module.exports (C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\babel-loader\lib\index.js:163:20)
-npm ERR! code ELIFECYCLE
-npm ERR! errno 2
-npm ERR! autocomplete@1.0.0 build: `webpack`
-npm ERR! Exit status 2
-npm ERR!
-npm ERR! Failed at the autocomplete@1.0.0 build script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-```
+Module build failed: ReferenceError: [BABEL] C:\Users\david\git\react-quickly\ch20\autocomplete\src\app.jsx: Unknown option: C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\react\react.js.Children. Check out 
