@@ -1,8 +1,11 @@
  
-### React Training Macy's Learning Spike 
+### React Training Macy's Learning Spike
+### Instructor: David Marsland david@marsland.org
+<a target="_ref" href="https://developintelligence.com">DevelopIntelligence</a> 
 
 * Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications.
 
+---
 * Prerequisites: Advanced knowledge of JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns.
 
 * If you don't know ES6, aka ES2015, this is a great free intro course:
@@ -34,6 +37,7 @@ Visual Studio Code: install from <a target="_setup" href="https://code.visualstu
 or
 Sublime Text
 <a target="_setup" href="https://www.sublimetext.com/">https://www.sublimetext.com/</a>
+
 ---
 ### Recommended IDEs
 Jetbrains IDEs, either WebStorm or IntelliJ.
@@ -49,6 +53,7 @@ We'll do more setup in class as needed.
 ---
 ### Setting Up Your React Dev Environment Easily
 <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
+
 ---
 ### The Evolution of the Web
 <a target="_ref" href="http://www.evolutionoftheweb.com/">http://www.evolutionoftheweb.com/</a>
@@ -77,6 +82,7 @@ https://reactjs.org/docs/thinking-in-react.html</a>
 https://github.com/azat-co/react-foundation</a>
 
 Download zip or clone.
+
 ---
 
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/README.md">
