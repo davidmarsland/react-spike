@@ -79,19 +79,19 @@ https://github.com/azat-co/react-foundation</a>
 Download zip or clone.
 ---
 
-<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/README.md">
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/README.md">
 Course Outline</a>
 
-<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-intro.md">Course Intro</a>
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-intro.md">Course Intro</a>
 ---
 ### Module 1
-<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md">Module 1</a>
-<a target="_plunk" href="http://plnkr.co/edit/S2gjlc?p=preview">
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md">Module 1 Hello React World</a>
+* <a target="_plunk" href="http://plnkr.co/edit/S2gjlc?p=preview">
 Changing the State example</a>
-<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-02.md">Module 2</a>
-<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-03.md">Module 3</a>
-<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-04.md">Module 4</a>
-<a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-02.md">Module 2 Components</a>
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-03.md">Module 3 User Input</a>
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-04.md">Module 4 Advancing Components</a>
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">
 React Foundation Summary</a>
 ---
 ### Flux
