@@ -1,11 +1,18 @@
  
-### React Training Macy's Learning Spike
-### Instructor: David Marsland david@marsland.org
-<a target="_ref" href="https://developintelligence.com">DevelopIntelligence</a> 
-
-* Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications.
+### Welcome to React Training 
+#### Macy's Learning Spike
+#### Instructor: David Marsland
+<a target="_blank" href="mailto:david@marsland.org?s=React Course question">david@marsland.org</a>
+<br>
+<img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
+<br>
+<a target="_di" href="http://developintelligence.com">DevelopIntelligence.com</a>
+#### Mon Dec 18 - Tues Dec 19 9:30AM-4:30PM
+<a target="_git_react" href="https://davidmarsland.github.io/react-spike/">https://davidmarsland.github.io/react-spike/</a>
 
 ---
+* Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications.
+
 * Prerequisites: Advanced knowledge of JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns.
 
 * If you don't know ES6, aka ES2015, this is a great free intro course:
