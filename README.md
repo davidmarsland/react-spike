@@ -34,6 +34,11 @@
 <a target="_ref" href="http://campus.codeschool.com/courses/es2015-the-shape-of-javascript-to-come">CodeSchool ES2015: The Shape of JavaScript to Come</a>
 
 ---
+### Free Video Courses on Node University
+* <a target="_nodeu" href="https://node.university/courses/category/free">https://node.university/courses/category/free</a>
+### This course includes material from Azat Mardan's React Foundation Course with Videos
+<a target="_react_foundation" href="https://node.university/p/react-foundation">https://node.university/p/react-foundation</a>
+---
 
 ### Hello React World
 <p data-height="565" data-theme-id="0" data-slug-hash="jYWpNR" data-default-tab="js,result" data-user="demarsland" data-embed-version="2" data-pen-title="Hello React World" class="codepen">See the Pen <a href="https://codepen.io/demarsland/pen/jYWpNR/">Hello React World</a> by David Marsland (<a href="https://codepen.io/demarsland">@demarsland</a>) on <a href="https://codepen.io">CodePen</a>.</p>
