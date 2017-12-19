@@ -46,27 +46,11 @@
 
 	const ReactDOM = __webpack_require__(1);
 	const React = __webpack_require__(183);
+	const HelloWorld = __webpack_require__(184);
+
 	console.log('start');
 
-	ReactDOM.render(React.createElement(
-	  'div',
-	  null,
-	  React.createElement(
-	    'h1',
-	    null,
-	    'Hello Macy\'s world!'
-	  ),
-	  React.createElement(
-	    'h1',
-	    null,
-	    'Core React.js'
-	  ),
-	  React.createElement(
-	    'p',
-	    null,
-	    'This text is very useful for learning React.js.'
-	  )
-	), document.getElementById('content'));
+	ReactDOM.render(React.createElement(HelloWorld, null), document.getElementById('content'));
 
 /***/ }),
 /* 1 */
@@ -21878,6 +21862,24 @@
 
 	module.exports = __webpack_require__(93);
 
+
+/***/ }),
+/* 184 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	const React = __webpack_require__(183);
+
+	class HelloWorld extends React.Component {
+	  render() {
+	    return React.createElement(
+	      'h1',
+	      null,
+	      'Hello Macy\'s world!'
+	    );
+	  }
+	}
+
+	module.exports = HelloWorld;
 
 /***/ })
 /******/ ]);

@@ -153,7 +153,7 @@ React Foundation Summary</a>
 <a target="_ref" href="https://redux.js.org/">redux.js.org</a>
 
 <a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/33">
-State Management with Redux</a>
+State Management with React and Redux</a>
 ---
 ### Redux example and Lab
 <a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh/">
@@ -163,8 +163,10 @@ Redux Example Incrementer</a>
 
 ---
 ### Redux Course Notes
-<a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">
-Redux Course Notes</a>
+* <a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">
+Redux Course Notes https://github.com/tayiorbeii/egghead.io_redux_course_notes</a>
+
+<a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">Redux Todo Example App from Redux Course https://github.com/sadams/todo-redux-react-webpack</a>
 
 Free Course Videos from Dan Abramov
 Learn Redux from its creator:
