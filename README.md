@@ -145,6 +145,19 @@ Changing the State example</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">
 React Foundation Summary</a>
 ---
+### CommonJS import/require module.exports vs. ES6 modules import/export
+
+* React Foundation Course uses Node CommonJS module
+* Why?  Can use same syntax with server-side Node and Client side
+
+<a target="_ref" href="voidcanvas.com/import-vs-require/">voidcanvas.com/import-vs-require/</a>
+<a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/appendix-e/136">React Quickly Appendix E: ES6 Modules</a>
+> "Personally, I find ES6 modules confusing. Yes, they’re more eloquent, but Node.js modules won’t change > anytime soon. It’s better to have only one style for browser and server JavaScript, so I’ll stick with > CommonJS/Node.js style for now. In addition, support for ES6 modules in browsers isn’t available as of > this writing, so you’ll need something like jspm (<a target="_ref" href="http://jspm.io">http://jspm.io</a>) to use ES6 modules.
+
+> For more information and examples, see <a target="_ref" href="http://exploringjs.com/es6/ch_modules.html">http://exploringjs.com/es6/ch_modules.html</a>. And no matter what, 
+> write modular JavaScript!"
+
+---
 ### Flux
 <a target="_ref" href="http://facebook.github.io/flux/docs/in-depth-overview.html#content">Flux from Facebook
 
@@ -179,12 +192,12 @@ Redux Course Notes https://github.com/tayiorbeii/egghead.io_redux_course_notes</
 
 ### Redux Todo Example App from Redux Course 
 *<a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">https://github.com/sadams/todo-redux-react-webpack</a>
-<br>Clone repo, then:
+* Clone repo, then:
 ```
 npm install
 npm run start
 ```
-
+* Launches on localhost:8080 by default.
 ---
 ### Redux Video Course by Wes Bos
 
