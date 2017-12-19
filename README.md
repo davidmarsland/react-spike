@@ -237,8 +237,6 @@ State Management with React and Redux</a>
 <a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh/">
 Redux Example Incrementer</a>
 
-### Lab: Port Counter State to Redux
-
 ---
 ###Free Course Videos from Dan Abramov
 #### Learn Redux from its creator:
@@ -297,10 +295,11 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 ### Zeit for deployment
 <a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh">Zeit for deployment</a>
 
+* <a target="_ref" href="http://jsbin.com/mipesawapi/edit?js,output">JS Bin Online Editor</a> 
+---
 ### Github Tutorial
 * <a target="_ref" href="http://kbroman.org/github_tutorial/pages/init.html">Github tutorial</a>
 
-* <a target="_ref" href="http://jsbin.com/mipesawapi/edit?js,output">JS Bin Online Editor</a> 
 
 ---
 ### Routing in React
@@ -316,6 +315,9 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 * Defining a router class with the routes object as a mapping from URL fragments to functions
 * Rendering React elements in the methods/functions of the Backbone Router class
 * Instantiating and starting the Backbone the Router object
+---
+### React Native Intro
+<a target="_ref" href="https://www.slideshare.net/ModusJesus/intro-to-react-native">Intro to React Native</a>
 ---
 ### Resources to learn more
 * <a target="_ref" href="http://reactquickly.co/demos">http://reactquickly.co/demos</a>
@@ -339,3 +341,5 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 </a>
 <br>
 <a target="_git_core" href="https://davidmarsland.github.io/core-angularjs/">https://davidmarsland.github.io/core-angularjs/</a>
+### Thanks, please fill out course eval now, comments appreciated
+<a target="_ref" href="https://www.surveymonkey.com/r/2F8GGX6">https://www.surveymonkey.com/r/2F8GGX6</a>
