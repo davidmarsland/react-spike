@@ -152,9 +152,9 @@ React Foundation Summary</a>
 * React Foundation Course uses Node CommonJS module
 * Why?  Can use same syntax with server-side Node and Client side
 
-<a target="_ref" href="voidcanvas.com/import-vs-require/">voidcanvas.com/import-vs-require/</a>
-<a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/appendix-e/136">React Quickly Appendix E: ES6 Modules</a>
-> "Personally, I find ES6 modules confusing. Yes, they’re more eloquent, but Node.js modules won’t change > anytime soon. It’s better to have only one style for browser and server JavaScript, so I’ll stick with > CommonJS/Node.js style for now. In addition, support for ES6 modules in browsers isn’t available as of > this writing, so you’ll need something like jspm (<a target="_ref" href="http://jspm.io">http://jspm.io</a>) to use ES6 modules.
+* <a target="_ref" href="voidcanvas.com/import-vs-require/">voidcanvas.com/import-vs-require/</a>
+* <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/appendix-e/136">React Quickly Appendix E: ES6 Modules</a>
+> Azat wrote: "Personally, I find ES6 modules confusing. Yes, they’re more eloquent, but Node.js modules won’t change anytime soon. It’s better to have only one style for browser and server JavaScript, so I’ll stick with CommonJS/Node.js style for now. In addition, support for ES6 modules in browsers isn’t available as of this writing, so you’ll need something like jspm (<a target="_ref" href="http://jspm.io">http://jspm.io</a>) to use ES6 modules.
 
 > For more information and examples, see <a target="_ref" href="http://exploringjs.com/es6/ch_modules.html">http://exploringjs.com/es6/ch_modules.html</a>. And no matter what, 
 > write modular JavaScript!"
