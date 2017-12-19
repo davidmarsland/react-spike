@@ -162,20 +162,28 @@ Redux Example Incrementer</a>
 ### Lab: Port Counter State to Redux
 
 ---
-### Redux Course Notes
+###Free Course Videos from Dan Abramov
+#### Learn Redux from its creator:
+
+* <a target="_ref" href="https://egghead.io/series/getting-started-with-redux">
+Part 1: Getting Started with Redux (30 free videos)</a>
+
+* <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">
+Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
+
+#### Redux Course Notes
 * <a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">
 Redux Course Notes https://github.com/tayiorbeii/egghead.io_redux_course_notes</a>
 
-<a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">Redux Todo Example App from Redux Course https://github.com/sadams/todo-redux-react-webpack</a>
+---
 
-Free Course Videos from Dan Abramov
-Learn Redux from its creator:
-
-<a target="_ref" href="https://egghead.io/series/getting-started-with-redux">
-Part 1: Getting Started with Redux (30 free videos)</a>
-
-<a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">
-Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
+### Redux Todo Example App from Redux Course 
+*<a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">https://github.com/sadams/todo-redux-react-webpack</a>
+<br>Clone repo, then:
+```
+npm install
+npm run start
+```
 
 ---
 ### Redux Video Course by Wes Bos
