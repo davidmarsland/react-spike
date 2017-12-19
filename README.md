@@ -128,6 +128,7 @@ http://kbroman.org/github_tutorial/pages/init.html
 ### React Quickly Book
 #### by Azat Mardan
 <a target="_react-quickly" href="https://livebook.manning.com/#!/book/react-quickly">React Quickly Livebook</a>
+
 ---
 
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/README.md">
@@ -157,6 +158,69 @@ React Foundation Summary</a>
 > For more information and examples, see <a target="_ref" href="http://exploringjs.com/es6/ch_modules.html">http://exploringjs.com/es6/ch_modules.html</a>. And no matter what, 
 > write modular JavaScript!"
 
+---
+### Optional Homework: Final Project in React Foundation 
+* Requires many dependencies. Won't have time in this short course.
+* See <a target="_ref" href=" ">React Quickly Setup</a>
+
+* Install MongoDB.   You'll have to download and install MongoDB 
+* <a target="_ref" href="https://docs.mongodb.com/getting-started/shell/tutorial/install-mongodb-on-windows/">MongoDB Windows</a>
+* <a target="_ref" href="https://docs.mongodb.com/getting-started/shell/tutorial/">MongoDB Tutorial</a>
+
+---
+### MongoDB Continued 
+* Make sure that you created these directories for MongoDB
+
+```
+mkdir c:\data\db
+mkdir c:\data\log
+```
+* You'll have to add to the System Environment Variable PATH
+```
+C:\Program Files\MongoDB\Server\3.6\bin\
+```
+* Launch new Terminal, Powershell or Cmd prompt.
+```
+mongod
+```
+---
+### Optional Homework project Autocomplete
+
+* Launch another Terminal, Powershell or Cmd
+```
+cd react-foundation\code\autocomplete
+npm install
+```
+* This project has many dependencies that need to be updated.
+* Even after fixing there will likely still be issues.
+```
+npm install react -D
+npm install babel-core -D
+npm install babel-loader -D
+npm install webpack -D
+```
+---
+### Optional homework autocomplete issues
+* Warning: Accessing PropTypes via the main React package is deprecated. Use the prop-types package from npm instead.
+```
+ npm install prop-types -D
+ ```
+ Then have to change code.
+``` 
+ cd react-quickly\ch20\autocomplete> 
+ npm start
+```
+> autocomplete@1.0.0 start C:\Users\david\git\react-quickly\ch20\autocomplete
+> npm run build && ./node_modules/.bin/node-dev index.js
+> autocomplete@1.0.0 build C:\Users\david\git\react-quickly\ch20\autocomplete
+> webpack
+* Warning: Accessing PropTypes via the main React package is deprecated. Use the prop-types package from npm instead.
+---
+### Lab: Shopping Cart in React
+* Implement a simple catalog and shopping cart in React, 
+* Modularize this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
+* Refactor to use Redux and routing to save a history of their shopping.  
+* Optional challenges: use Macy's test data for real shopping! 
 ---
 ### Flux
 <a target="_ref" href="http://facebook.github.io/flux/docs/in-depth-overview.html#content">Flux from Facebook
@@ -191,7 +255,7 @@ Redux Course Notes https://github.com/tayiorbeii/egghead.io_redux_course_notes</
 ---
 
 ### Redux Todo Example App from Redux Course 
-*<a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">https://github.com/sadams/todo-redux-react-webpack</a>
+* <a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">https://github.com/sadams/todo-redux-react-webpack</a>
 * Clone repo, then:
 ```
 npm install
@@ -199,16 +263,33 @@ npm run start
 ```
 * Launches on localhost:8080 by default.
 ---
+
+### Lab: Shopping Cart with React and Redux
+* Port your simple catalog and shopping cart in React to use Redux for state management
+* Previously, you modularized this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
+* Refactor to use Redux 
+* Use Todo Redux example for inspiration <a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">https://github.com/sadams/todo-redux-react-webpack</a>
+* See previous page for setup
+* Optional challenges: use Macy's test data for real shopping! 
+---
 ### Redux Video Course by Wes Bos
 
-<a target="_ref" href="https://courses.wesbos.com/account/access/5a34aee80e25892227e21408">
+* <a target="_ref" href="https://courses.wesbos.com/account/access/5a34aee80e25892227e21408">
 Wes Bos Redux Video Course</a>
 
-<a target="_ref" href="https://medium.com/netscape/my-recommended-free-resources-to-learn-react-68f4d20a8dc1">
+* <a target="_ref" href="https://medium.com/netscape/my-recommended-free-resources-to-learn-react-68f4d20a8dc1">
 Free Resources to Learn React</a>
+* <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/">React Quickly book by Azat Mardan</a>
+* <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/chapter-9">React Quickly Free Chapter Menu Project</a>
+
+* <a target="_ref" href="https://egghead.io/series/getting-started-with-redux">
+Part 1: Getting Started with Redux (30 free videos)</a>
+
+* <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">
+Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 
 ---
-
+### Tools and Tutorials
 ### Code Sandbox
 <a target="_ref" href="https://codesandbox.io/s/62zvqom7kk">Code Sandbox</a>
 
@@ -216,69 +297,44 @@ Free Resources to Learn React</a>
 <a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh">Zeit for deployment</a>
 
 ### Github Tutorial
-http://kbroman.org/github_tutorial/pages/init.html
+* <a target="_ref" href="http://kbroman.org/github_tutorial/pages/init.html">Github tutorial</a>
 
-JS Bin Online Editor
-http://jsbin.com/mipesawapi/edit?js,output
+* <a target="_ref" href="http://jsbin.com/mipesawapi/edit?js,output">JS Bin Online Editor</a> 
 
 ---
-Optional Final Project requires many dependencies.
+### Routing in React
+* Package react-router 
+* <a target="_ref" href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a>
+* <a target="_ref" href="https://github.com/ReactTraining/react-router">https://github.com/ReactTraining/react-router</a>
+<a target="_ref" href="https://github.com/reactjs/react-router-tutorial">react-router tutorial https://github.com/reactjs/react-router-tutorial</a>
+---
+### Routing with Backbone and React
+* <a target="_ref" href=" ">React Quickly has a Backbone routing example in Ch. 13</a>
+* <a target="_ref" href="https://github.com/azat-co/react-quickly/tree/master/ch13">https://github.com/azat-co/react-quickly/tree/master/ch13</a>
+### Backbone router to render React components by doing the following:
+* Defining a router class with the routes object as a mapping from URL fragments to functions
+* Rendering React elements in the methods/functions of the Backbone Router class
+* Instantiating and starting the Backbone the Router object
+---
+### Resources to learn more
+* <a target="_ref" href="http://reactquickly.co/demos">http://reactquickly.co/demos</a>
+* <a target="_ref" href=" ">Review React Foundation Course Videos from Azat Mardan</a>
+<a target="_react-quickly" href="https://livebook.manning.com/#!/book/react-quickly">React Quickly Book by Azat Mardan: Livebook</a>
+* <a target="_ref" href=" ">React Quickly Summaries<img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/BbkbQLlTRsekq9Mhu2Uq"/></a>
+---
 
-Install MongoDB.   You'll have to download and install MongoDB 
-https://docs.mongodb.com/getting-started/shell/tutorial/install-mongodb-on-windows/
+#### PluralSight React Skills Assessment
+15 minute test of your proficiency in React.  Should be able to take once with 1 redo.
 
-Make sure that you created these directories for MongoDB
-'''
-mkdir c:\data\db
-mkdir c:\data\log
-'''
-You'll have to add to the System Environment Variable PATH
-C:\Program Files\MongoDB\Server\3.6\bin\
-Launch new Powershell or Cmd prompt.
-```
-mongod
-```
-Launch another Powershell or Cmd
-```
-cd react-foundation\code\autocomplete
-```
-npm install
+<a target="_ref" href="https://www.pluralsight.com/paths/react">https://www.pluralsight.com/paths/react</a>
 
-This project has many dependencies that need to be updated.
-Even after fixing there will likely still be issues.
-```
-npm install react -D
-npm install babel-core -D
-npm install babel-loader -D
-npm install webpack -D
-```
-
-Warning: Accessing PropTypes via the main React package is deprecated. Use the prop-types package from npm instead.
-```
- npm install prop-types -D
- ```
-
- Then have to change code.
-``` 
- cd react-quickly\ch20\autocomplete> 
-
- npm start
-```
-> autocomplete@1.0.0 start C:\Users\david\git\react-quickly\ch20\autocomplete
-> npm run build && ./node_modules/.bin/node-dev index.js
-
-
-> autocomplete@1.0.0 build C:\Users\david\git\react-quickly\ch20\autocomplete
-> webpack
-
-Warning: Accessing PropTypes via the main React package is deprecated. Use the prop-types package from npm instead.
-Hash: 0f0497b28a0247312aee
-Version: webpack 2.4.1
-Time: 1037ms
-     Asset     Size  Chunks             Chunk Names
-    app.js  5.45 kB       0  [emitted]  main
-app.js.map  2.62 kB       0  [emitted]  main
-   [0] ./src/app.jsx 2.78 kB {0} [built] [failed] [1 error]
-
-ERROR in ./src/app.jsx
-Module build failed: ReferenceError: [BABEL] C:\Users\david\git\react-quickly\ch20\autocomplete\src\app.jsx: Unknown option: C:\Users\david\git\react-quickly\ch20\autocomplete\node_modules\react\react.js.Children. Check out 
+---
+### Congratulations, Macy's Team
+### You are now all React and Redux Developers!
+#### Thanks for having me, keep in touch
+<a target="_blank" href="mailto:david@marsland.org?s=React/Redux Course question">david@marsland.org</a>
+<br>
+<a target="_di" href="http://developintelligence.com"><img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
+</a>
+<br>
+<a target="_git_core" href="https://davidmarsland.github.io/core-angularjs/">https://davidmarsland.github.io/core-angularjs/</a>
