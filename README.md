@@ -146,6 +146,7 @@ Changing the State example</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">
 React Foundation Summary</a>
 ---
+
 ### CommonJS import/require module.exports vs. ES6 modules import/export
 
 * React Foundation Course uses Node CommonJS module
