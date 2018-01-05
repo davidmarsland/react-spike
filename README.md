@@ -1,5 +1,5 @@
  
-### Welcome to React Training 
+### Welcome to React Training p
 #### Macy's Learning Spike
 #### Instructor: David Marsland
 <a target="_blank" href="mailto:david@marsland.org?s=React Course question">david@marsland.org</a>
@@ -190,6 +190,9 @@ mongod
 * Launch another Terminal, Powershell or Cmd
 ```
 cd react-foundation\code\autocomplete
+```
+* Change babel to babel-loader in webpack.config.js
+```
 npm install
 ```
 * This project has many dependencies that need to be updated.
@@ -197,7 +200,6 @@ npm install
 ```
 npm install react -D
 npm install babel-core -D
-npm install babel-loader -D
 npm install webpack -D
 ```
 ---
