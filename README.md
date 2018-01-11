@@ -1,20 +1,20 @@
  
-### Welcome to React Training p
-#### Macy's Learning Spike
+### Welcome to React + Redux Training
 #### Instructor: David Marsland
 <a target="_blank" href="mailto:david@marsland.org?s=React Course question">david@marsland.org</a>
 <br>
 <img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
 <br>
 <a target="_di" href="http://developintelligence.com">DevelopIntelligence.com</a>
-#### Mon Dec 18 - Tues Dec 19 9:30AM-4:30PM
 <a target="_git_react" href="https://davidmarsland.github.io/react-spike/">https://davidmarsland.github.io/react-spike/</a>
+
 ---
 ### Introducing your instructor, David Marsland
 * <a target="_ref" href="https://www.linkedin.com/in/DavideMarsland">https://www.linkedin.com/in/DavideMarsland</a>
 * Web Development since the Dawn of the Web <br>
 <a target="_ref" href="https://web.archive.org/web/19970616152144fw_/http://reality.sgi.com:80/mars_corp/"><img src="https://web.archive.org/web/19971210071250im_/http://reality.sgi.com:80/images/sgipowered.gif" /><br>Wayback Machine 1997 reality.sgi.com/mars_corp</a>
 * <a target="_ref" href="http://www.evolutionoftheweb.com/">http://www.evolutionoftheweb.com/</a>
+
 ---
 ### Life after SGI
 * Sun Java Certified Developer and Instructor 1998-2004
@@ -24,7 +24,7 @@
 * DevelopIntelligence Senior Technical Instructor 2017-
 
 ---
-### React Training for Macy's
+### React Training
 * Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications.
 
 * Prerequisites: Advanced knowledge of JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns.
@@ -40,14 +40,13 @@
 <a target="_react_foundation" href="https://node.university/p/react-foundation">https://node.university/p/react-foundation</a>
 
 ---
-
 ### Hello React World
 <p data-height="565" data-theme-id="0" data-slug-hash="jYWpNR" data-default-tab="js,result" data-user="demarsland" data-embed-version="2" data-pen-title="Hello React World" class="codepen">See the Pen <a href="https://codepen.io/demarsland/pen/jYWpNR/">Hello React World</a> by David Marsland (<a href="https://codepen.io/demarsland">@demarsland</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 <iframe height='465' scrolling='no' title='Hello React World' src='//codepen.io/demarsland/pres/jYWpNR/?height=465&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/demarsland/pen/jYWpNR/'>Hello React World</a> by David Marsland (<a href='https://codepen.io/demarsland'>@demarsland</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
----
 
+---
 ### Think In React
 <a target="_think_react" href="https://reactjs.org/docs/thinking-in-react.html">
 https://reactjs.org/docs/thinking-in-react.html</a>
@@ -115,6 +114,13 @@ Modern Web Development with React and Redux by Mark Erikson</a>
 https://reactjs.org/docs/thinking-in-react.html</a>
 
 ---
+### Naming Conventions
+
+* React doesn't enforce naming conventions
+* There are many different approaches to class and file naming
+* <a target="_ref" href="https://github.com/airbnb/javascript/tree/master/react#naming">Airbnb React/JSX Style Guide</a> shows one approach
+
+---
 ### Course Materials
 
 #### React Foundation by Azat Mardan
@@ -135,6 +141,7 @@ http://kbroman.org/github_tutorial/pages/init.html
 Course Outline</a>
 
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-intro.md">Course Intro</a>
+
 ---
 ### React Foundation Course Modules
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md">Module 1 Hello React World</a>
@@ -145,6 +152,7 @@ Changing the State example</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-04.md">Module 4 Advancing Components</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">
 React Foundation Summary</a>
+
 ---
 
 ### CommonJS import/require module.exports vs. ES6 modules import/export
@@ -154,7 +162,7 @@ React Foundation Summary</a>
 
 * <a target="_ref" href="voidcanvas.com/import-vs-require/">voidcanvas.com/import-vs-require/</a>
 * <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/appendix-e/136">React Quickly Appendix E: ES6 Modules</a>
-> Azat wrote: "Personally, I find ES6 modules confusing. Yes, they’re more eloquent, but Node.js modules won’t change anytime soon. It’s better to have only one style for browser and server JavaScript, so I’ll stick with CommonJS/Node.js style for now. In addition, support for ES6 modules in browsers isn’t available as of this writing, so you’ll need something like jspm (<a target="_ref" href="http://jspm.io">http://jspm.io</a>) to use ES6 modules.
+> Azat Mardan wrote: "Personally, I find ES6 modules confusing. Yes, they’re more eloquent, but Node.js modules won’t change anytime soon. It’s better to have only one style for browser and server JavaScript, so I’ll stick with CommonJS/Node.js style for now. In addition, support for ES6 modules in browsers isn’t available as of this writing, so you’ll need something like jspm (<a target="_ref" href="http://jspm.io">http://jspm.io</a>) to use ES6 modules.
 
 > For more information and examples, see <a target="_ref" href="http://exploringjs.com/es6/ch_modules.html">http://exploringjs.com/es6/ch_modules.html</a>. And no matter what, 
 > write modular JavaScript!"
@@ -218,12 +226,12 @@ npm install webpack -D
 > autocomplete@1.0.0 build C:\Users\david\git\react-quickly\ch20\autocomplete
 > webpack
 * Warning: Accessing PropTypes via the main React package is deprecated. Use the prop-types package from npm instead.
+
 ---
-### Lab: Shopping Cart in React
-* Implement a simple catalog and shopping cart in React, 
+### Lab: Catalog in React
+* Implement a simple catalog in React 
 * Modularize this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
-* Refactor to use Redux and routing to save a history of their shopping.  
-* Optional challenges: use Macy's test data for real shopping! 
+* Optional challenges: use your own test data for real shopping! 
 ---
 ### Flux
 <a target="_ref" href="http://facebook.github.io/flux/docs/in-depth-overview.html#content">Flux from Facebook
@@ -234,6 +242,7 @@ npm install webpack -D
 
 <a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/33">
 State Management with React and Redux</a>
+
 ---
 ### Redux example and Lab
 <a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh/">
@@ -265,13 +274,14 @@ npm run start
 * Launches on localhost:8080 by default.
 ---
 
-### Lab: Shopping Cart with React and Redux
-* Port your simple catalog and shopping cart in React to use Redux for state management
+### Lab: Catalog with React and Redux
+* Port your simple catalog in React to use Redux for state management
 * Previously, you modularized this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
 * Refactor to use Redux 
 * Use Todo Redux example for inspiration <a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">https://github.com/sadams/todo-redux-react-webpack</a>
 * See previous page for setup
-* Optional challenges: use Macy's test data for real shopping! 
+* Optional challenges: use your own test data for real shopping! 
+
 ---
 ### Redux Video Course by Wes Bos
 
@@ -334,7 +344,7 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 <a target="_ref" href="https://www.pluralsight.com/paths/react">https://www.pluralsight.com/paths/react</a>
 
 ---
-### Congratulations, Macy's Team
+### Congratulations
 ### You are now all React and Redux Developers!
 #### Thanks for having me, keep in touch
 <a target="_blank" href="mailto:david@marsland.org?s=React/Redux Course question">david@marsland.org</a>
