@@ -348,8 +348,7 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 <a target="_ref" href="https://www.pluralsight.com/paths/react">https://www.pluralsight.com/paths/react</a>
 
 ---
-### Congratulations
-### You are now all React and Redux Developers!
+### Congratulations, you are now all React and Redux Developers!
 #### Thanks for having me, keep in touch
 <a target="_blank" href="mailto:david@marsland.org?s=React/Redux Course question">david@marsland.org</a>
 <br>
@@ -358,4 +357,3 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 <br>
 <a target="_git_core" href="https://davidmarsland.github.io/core-angularjs/">https://davidmarsland.github.io/core-angularjs/</a>
 ### Thanks, please fill out course eval now, comments appreciated
-<a target="_ref" href="https://www.surveymonkey.com/r/2F8GGX6">https://www.surveymonkey.com/r/2F8GGX6</a>
