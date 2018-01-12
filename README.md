@@ -6,6 +6,7 @@
 <img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
 <br>
 <a target="_di" href="http://developintelligence.com">DevelopIntelligence.com</a>
+<br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-spike/">https://davidmarsland.github.io/react-spike/</a>
 
 ---
@@ -90,8 +91,10 @@ npm install -g eslint
 We'll do more setup in class as needed.
 
 ---
-### Setting Up Your React Dev Environment Easily
-<a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
+### Setting Up Your React Dev Environment Easily 
+* Create React App simplifies setup 
+* <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
+* <a target="_ref" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md">Create React App Docs></a>
 
 ---
 ### The Evolution of the Web
@@ -272,6 +275,7 @@ npm install
 npm run start
 ```
 * Launches on localhost:8080 by default.
+
 ---
 
 ### Lab: Catalog with React and Redux
