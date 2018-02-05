@@ -95,7 +95,7 @@ We'll do more setup in class as needed.
 ### Setting Up Your React Dev Environment Easily 
 * Create React App simplifies setup 
 * <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
-* <a target="_ref" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md">Create React App Docs></a>
+* <a target="_ref" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md">Create React App Docs</a>
 
 ---
 ### The Evolution of the Web
