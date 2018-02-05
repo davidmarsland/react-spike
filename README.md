@@ -30,9 +30,10 @@
 
 * Prerequisites: Advanced knowledge of JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns.
 
-* If you don't know ES6, aka ES2015, this is a great free intro course:
-
-<a target="_ref" href="http://campus.codeschool.com/courses/es2015-the-shape-of-javascript-to-come">CodeSchool ES2015: The Shape of JavaScript to Come</a>
+* If you don't know ES6, aka ES2015, here are some good tutorials:
+* <a target="_babel" href="https://babeljs.io/learn-es2015/">https://babeljs.io/learn-es2015/</a>
+* <a target="_udacity" href="https://www.udacity.com/course/es6-javascript-improved--ud356
+">ES6 - JavaScript Improved | Udacity</a>
 
 ---
 ### Free Video Courses on Node University
@@ -349,11 +350,9 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 
 ---
 ### Congratulations, you are now all React and Redux Developers!
-#### Thanks for having me, keep in touch
-<a target="_blank" href="mailto:david@marsland.org?s=React/Redux Course question">david@marsland.org</a>
-<br>
+
 <a target="_di" href="http://developintelligence.com"><img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
 </a>
 <br>
-<a target="_git_core" href="https://davidmarsland.github.io/core-angularjs/">https://davidmarsland.github.io/core-angularjs/</a>
+<a target="_git_react" href="https://davidmarsland.github.io/react-spike/">https://davidmarsland.github.io/react-spike/</a>
 ### Thanks, please fill out course eval now, comments appreciated
