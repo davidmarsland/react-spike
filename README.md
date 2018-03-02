@@ -1,7 +1,6 @@
  
 ### Welcome to React + Redux Training
 #### Instructor: David Marsland
-<a target="_blank" href="mailto:david@marsland.org?s=React Course question">david@marsland.org</a>
 <br>
 <img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
 <br>
