@@ -340,6 +340,12 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 * <a target="_ref" href=" ">Review React Foundation Course Videos from Azat Mardan</a>
 <a target="_react-quickly" href="https://livebook.manning.com/#!/book/react-quickly">React Quickly Book by Azat Mardan: Livebook</a>
 * <a target="_ref" href=" ">React Quickly Summaries<img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/BbkbQLlTRsekq9Mhu2Uq"/></a>
+
+---
+
+### React and Redux Resources
+
+* <a target="_ref" href="https://www.robinwieruch.de/tips-to-learn-react-redux/">Tips to learn React + Redux in 2018</a>
 ---
 
 #### PluralSight React Skills Assessment
