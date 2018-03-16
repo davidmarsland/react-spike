@@ -97,6 +97,10 @@ We'll do more setup in class as needed.
 * <a target="_ref" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md">Create React App Docs</a>
 
 ---
+### Tools
+
+* <a target="_ref" href="https://codesandbox.io/s/new">https://codesandbox.io/</a>
+---
 ### The Evolution of the Web
 <a target="_ref" href="http://www.evolutionoftheweb.com/">http://www.evolutionoftheweb.com/</a>
 
@@ -346,6 +350,8 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 ### React and Redux Resources
 
 * <a target="_ref" href="https://www.robinwieruch.de/tips-to-learn-react-redux/">Tips to learn React + Redux in 2018</a>
+
+* <a target="_ref" href="https://thinkster.io/tutorials/learn-redux/">Thinkster: Learn The Fundamentals of Redux</a>
 ---
 
 #### PluralSight React Skills Assessment
