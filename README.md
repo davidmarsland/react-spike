@@ -135,8 +135,12 @@ https://reactjs.org/docs/thinking-in-react.html</a>
 https://github.com/azat-co/react-foundation</a>
 
 ### Download zip or clone.
-### Github Tutorial
-http://kbroman.org/github_tutorial/pages/init.html
+### Github Tutorials
+
+* <a target="_ref" href="https://try.github.io">CodeSchool Free tryGit Interactive Tutorial</a>
+* <a target="_ref" href="http://kbroman.org/github_tutorial/pages/init.html">Github Guide</a>
+
+
 ---
 ### React Quickly Book
 #### by Azat Mardan
@@ -352,6 +356,13 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 * <a target="_ref" href="https://www.robinwieruch.de/tips-to-learn-react-redux/">Tips to learn React + Redux in 2018</a>
 
 * <a target="_ref" href="https://thinkster.io/tutorials/learn-redux/">Thinkster: Learn The Fundamentals of Redux</a>
+<br>Note, to do the labs you will have to change git commands similar to this:
+
+```
+git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app.git
+
+```
+
 ---
 
 #### PluralSight React Skills Assessment
