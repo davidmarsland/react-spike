@@ -1,4 +1,4 @@
-### Welcome to React + Redux Training
+### Welcome to React Training
 #### Instructor: David Marsland
 <br>
 <img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
@@ -9,14 +9,14 @@
 
 ---
 ### React Training
-* Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications.
+* Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications
 
-* Prerequisites: Advanced knowledge of JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns.
+* Prerequisites: Advanced JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns
 
 * If you don't know ES6, aka ES2015, here are some good tutorials:
-* <a target="_babel" href="https://babeljs.io/learn-es2015/">https://babeljs.io/learn-es2015/</a>
-* <a target="_udacity" href="https://www.udacity.com/course/es6-javascript-improved--ud356
-">ES6 - JavaScript Improved | Udacity</a>
+  * <a target="_babel" href="https://babeljs.io/learn-es2015/">https://babeljs.io/learn-es2015/</a>
+  * <a target="_udacity" href="https://www.udacity.com/course/es6-javascript-improved--ud356
+  ">ES6 - JavaScript Improved | Udacity</a>
 
 ---
 ### Lab Setup
@@ -56,11 +56,12 @@ Jetbrains IDEs, either WebStorm or IntelliJ.
 
 ---
 ### Introducing your instructor, David Marsland
-* <a target="_ref" href="https://www.linkedin.com/in/davidemarsland">https://www.linkedin.com/in/davidemarsland</a>
-* Web Development since the Dawn of the Web <br>
-* <a target="_ref" href="https://web.archive.org/web/19970616152144fw_/http://reality.sgi.com:80/mars_corp/"><img src="https://web.archive.org/web/19971210071250im_/http://reality.sgi.com:80/images/sgipowered.gif" />
-Wayback Machine 1997 reality.sgi.com/mars_corp</a>
-* <a target="_ref" href="http://www.evolutionoftheweb.com/">http://www.evolutionoftheweb.com/</a>
+<a target="_ref" href="https://www.linkedin.com/in/davidemarsland">https://www.linkedin.com/in/davidemarsland</a>
+<br>
+<br>
+Web Development since the Dawn of the Web <br>
+<a target="_ref" href="https://web.archive.org/web/19970616152144fw_/http://reality.sgi.com:80/mars_corp/"><img src="https://web.archive.org/web/19971210071250im_/http://reality.sgi.com:80/images/sgipowered.gif" />
+<br>Wayback Machine 1997 reality.sgi.com/mars_corp</a>
 
 ---
 ### Life after SGI
@@ -77,29 +78,13 @@ Wayback Machine 1997 reality.sgi.com/mars_corp</a>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ---
-### Tools
-
-* <a target="_ref" href="https://codesandbox.io/s/new">https://codesandbox.io/</a>
-
----
 ### The Evolution of the Web
 <a target="_ref" href="http://www.evolutionoftheweb.com/">http://www.evolutionoftheweb.com/</a>
 
 ### A Brief History of the Web
-<a target="_ref" href="https://blog.keepsite.com/a-brief-history-of-the-web-809509ba23df">
-https://blog.keepsite.com/a-brief-history-of-the-web-809509ba23df</a>
+* <a target="_ref" href="https://blog.keepsite.com/a-brief-history-of-the-web-809509ba23df">A Brief History of the Web</a>
 
-<a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/#/?_k=8f5q6o">
-The (R)Evolution of Web Development by Mark Erikson</a>
-
----
-### React and Redux
-<a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/23">
-Modern Web Development with React and Redux by Mark Erikson</a>
-
-### Thinking In React
-<a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">
-https://reactjs.org/docs/thinking-in-react.html</a>
+* <a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/#/?_k=8f5q6o">The (R)Evolution of Web Development by Mark Erikson</a>
 
 ---
 ### Naming Conventions
@@ -115,71 +100,76 @@ https://reactjs.org/docs/thinking-in-react.html</a>
 <a target="_git_labs" href="https://github.com/davidmarsland/react-labs/">https://github.com/davidmarsland/react-labs/</a>
 
 ---
+### Tutorial Labs Overview: Intro to React
+<a target="_ref" href="https://reactjs.org/tutorial/tutorial.html">Facebook React Tutorial</a>
+
+---
+
 ### Lab: Set Up React Dev Env and Create React App helloworld
 * Follow the steps in this tutorial to use Create React App for starter files
 * Then create helloworld app
 * <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
 
 ---
-### Tutorial Labs: Intro to React
-<a target="_ref" href="https://reactjs.org/tutorial/tutorial.html">Facebook React Tutorial</a>
+### Thinking In React
+<a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">https://reactjs.org/docs/thinking-in-react.html</a>
 
 ---
 ### Lab: Simple Table in React
 #### Implement a simple table in React
 * Generate project 
 
-```
-create-react-app simpletable
-```
+  ```
+  create-react-app simpletable
+  ```
 * In src directory, delete App.*
 * Start with this data from Thinking In React and declare PRODUCTS in src/index.js
 
-```
-const PRODUCTS = [
-  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
-  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
-  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
-  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
-  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
-  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
-];
-```
+  ```
+  const PRODUCTS = [
+    {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+    {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+    {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+    {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+    {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+    {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+  ];
+  ```
 
 * In src directory, create file SimpleTable.jsx
 
-```
-import React from 'react';
+  ```
+  import React from 'react';
 
-class SimpleTable extends React.Component {
-  render() {
-    return (
-      <table>
-        <tbody>
-        </tbody>
-      </table>
-    )
+  class SimpleTable extends React.Component {
+    render() {
+      return (
+        <table>
+          <tbody>
+          </tbody>
+        </table>
+      )
+    }
   }
-}
 
-export default SimpleTable;
-```
+  export default SimpleTable;
+  ```
 
 * Inside the tbody tags use an array and map() this.props.products to populate the name and price for each product
 
-```
-<tr><td>name</td><td>price</td></tr>
-```
+  ```
+  <tr><td>name</td><td>price</td></tr>
+  ```
 
 <br>Similar to this:
 
-```
-  <ul>
-    {this.props.items.map((value, index) => {
-      return <li key={index}>{value}</li>
-    })}
-  </ul>
-```
+  ```
+    <ul>
+      {this.props.items.map((value, index) => {
+        return <li key={index}>{value}</li>
+      })}
+    </ul>
+  ```
 
 * Modify index.js to render SimpleTable instead of App and pass in products={PRODUCTS} as a prop.
 * Run app in browser
@@ -199,9 +189,9 @@ npm start
 * Read the <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Tutorial</a> up to Step 2
 * Generate project 
 
-```
-create-react-app catalog
-```
+  ```
+  create-react-app catalog
+  ```
 
 * Modularize the code in 
 <a target="_ref" href="https://codepen.io/gaearon/pen/BwWzwm">Step 2: Build A Static Version in React</a>
@@ -222,39 +212,39 @@ const PRODUCTS = [
 
 * In src directory, create jsx files for each class and add import and export like this:
 
-`ProductCategoryRow.jsx`
+  `ProductCategoryRow.jsx`
 
-```
-import React from 'react';
+  ```
+  import React from 'react';
 
-class ProductCategoryRow extends React.Component {
-...
-export default ProductCategoryRow;
-```
+  class ProductCategoryRow extends React.Component {
+  ...
+  export default ProductCategoryRow;
+  ```
 
 * Import appropriate dependencies for each file like this:
 
-```
-import React from 'react';
-import ProductCategoryRow from './ProductCategoryRow';
-import ProductRow from './ProductRow';
+  ```
+  import React from 'react';
+  import ProductCategoryRow from './ProductCategoryRow';
+  import ProductRow from './ProductRow';
 
-class ProductTable extends React.Component ...
-```
+  class ProductTable extends React.Component ...
+  ```
 * Modify index.js to import FilterableProductTable then render.  <br>
 Note that id is 'root', not 'container'
 
-```
-ReactDOM.render(
-  <FilterableProductTable products={PRODUCTS} />,
-  document.getElementById('root')
-);
-```
+  ```
+  ReactDOM.render(
+    <FilterableProductTable products={PRODUCTS} />,
+    document.getElementById('root')
+  );
+  ```
 * Run app in browser
 
-```
-npm start
-```
+  ```
+  npm start
+  ```
 ---
 ### Lab: Add State to Filterable Product Table
 * Read all of <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-3-identify-the-minimal-but-complete-representation-of-ui-state">Step 3:  Identify The Minimal (but complete) Representation Of UI State</a>
@@ -263,13 +253,14 @@ npm start
 * Complete <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-5-add-inverse-data-flow">Step 5: Add Inverse Data Flow</a>
 * Optional Challenge: Create a Cart component and add selected products to the cart
 
-```
-handleAddToCart(product) {
-    this.setState({
-      cart: this.state.cart.concat(product)  // returns a new array
-    })
-  }
-```
+  ```
+  handleAddToCart(product) {
+      this.setState({
+        cart: this.state.cart.concat(product)  
+        // returns a new array
+      })
+    }
+  ```
 * Optional Challenge: use your own test data for real shopping! 
 
 ---
@@ -298,22 +289,19 @@ https://github.com/azat-co/react-foundation</a>
 <a target="_react-quickly" href="https://livebook.manning.com/#!/book/react-quickly">React Quickly Livebook</a>
 
 ---
-
-* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/README.md">
-Course Outline</a>
+### React Foundation Course
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/README.md">Course Outline</a>
 
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-intro.md">Course Intro</a>
 
 ---
 ### React Foundation Course Modules
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md">Module 1 Hello React World</a>
-* <a target="_plunk" href="http://plnkr.co/edit/S2gjlc?p=preview">
-Changing the State example</a>
+* <a target="_plunk" href="http://plnkr.co/edit/S2gjlc?p=preview">Changing the State example</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-02.md">Module 2 Components</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-03.md">Module 3 User Input</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-04.md">Module 4 Advancing Components</a>
-* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">
-React Foundation Summary</a>
+* <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">React Foundation Summary</a>
 
 ---
 
@@ -346,18 +334,15 @@ State Management with React and Redux</a>
 Redux Example Incrementer</a>
 
 ---
-###Free Course Videos from Dan Abramov
+### Free Course Videos from Dan Abramov
 #### Learn Redux from its creator:
 
-* <a target="_ref" href="https://egghead.io/series/getting-started-with-redux">
-Part 1: Getting Started with Redux (30 free videos)</a>
+* <a target="_ref" href="https://egghead.io/series/getting-started-with-redux">Part 1: Getting Started with Redux (30 free videos)</a>
 
-* <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">
-Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
+* <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 
 #### Redux Course Notes
-* <a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">
-Redux Course Notes https://github.com/tayiorbeii/egghead.io_redux_course_notes</a>
+* <a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">Redux Course Notes https://github.com/tayiorbeii/egghead.io_redux_course_notes</a>
 
 ---
 
@@ -372,20 +357,7 @@ npm run start
 
 ---
 
-### Redux Todo Example App from Redux Course 
-* <a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">https://github.com/sadams/todo-redux-react-webpack</a>
-* Clone repo, then:
-
-```
-npm install
-npm run start
-```
-
-* Launches on localhost:8080 by default.
-
----
-
-### Lab: Catalog with React and Redux
+### Optional Lab: Catalog with React and Redux
 * Port your simple catalog in React to use Redux for state management
 * Previously, you modularized this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
 * Refactor to use Redux 
@@ -412,29 +384,24 @@ npm run start
 ---
 ### Redux Video Course by Wes Bos
 
-* <a target="_ref" href="https://courses.wesbos.com/account/access/5a34aee80e25892227e21408">
-Wes Bos Redux Video Course</a>
+* <a target="_ref" href="https://courses.wesbos.com/account/access/5a34aee80e25892227e21408">Wes Bos Redux Video Course</a>
 
-* <a target="_ref" href="https://medium.com/netscape/my-recommended-free-resources-to-learn-react-68f4d20a8dc1">
-Free Resources to Learn React</a>
+* <a target="_ref" href="https://medium.com/netscape/my-recommended-free-resources-to-learn-react-68f4d20a8dc1">Free Resources to Learn React</a>
 * <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/">React Quickly book by Azat Mardan</a>
 * <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/chapter-9">React Quickly Free Chapter Menu Project</a>
 
-* <a target="_ref" href="https://egghead.io/series/getting-started-with-redux">
-Part 1: Getting Started with Redux (30 free videos)</a>
+* <a target="_ref" href="https://egghead.io/series/getting-started-with-redux">Part 1: Getting Started with Redux (30 free videos)</a>
 
-* <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">
-Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
+* <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux"> Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 
 ---
-### Tools and Tutorials
-### Code Sandbox
-<a target="_ref" href="https://codesandbox.io/s/62zvqom7kk">Code Sandbox</a>
+### Tools
+* <a target="_ref" href="https://codesandbox.io/s/62zvqom7kk">Code Sandbox</a>
 
-### Zeit for deployment
-<a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh">Zeit for deployment</a>
+* <a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh">Zeit for deployment</a>
 
-* <a target="_ref" href="http://jsbin.com/mipesawapi/edit?js,output">JS Bin Online Editor</a> 
+* <a target="_ref" href="http://jsbin.com/mipesawapi/edit?js,output">JS Bin Online Editor</a>
+
 ---
 ### Github Tutorial
 * <a target="_ref" href="http://kbroman.org/github_tutorial/pages/init.html">Github tutorial</a>
@@ -491,7 +458,7 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 <a target="_ref" href="https://www.pluralsight.com/paths/react">https://www.pluralsight.com/paths/react</a>
 
 ---
-### Congratulations, you are now all React and Redux Developers!
+### Congratulations, you are now all React Developers!
 
 <a target="_di" href="http://developintelligence.com"><img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
 </a>
