@@ -1,4 +1,3 @@
- 
 ### Welcome to React + Redux Training
 #### Instructor: David Marsland
 <br>
@@ -7,21 +6,6 @@
 <a target="_di" href="http://developintelligence.com">DevelopIntelligence.com</a>
 <br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-spike/">https://davidmarsland.github.io/react-spike/</a>
-
----
-### Introducing your instructor, David Marsland
-* <a target="_ref" href="https://www.linkedin.com/in/DavideMarsland">https://www.linkedin.com/in/DavideMarsland</a>
-* Web Development since the Dawn of the Web <br>
-<a target="_ref" href="https://web.archive.org/web/19970616152144fw_/http://reality.sgi.com:80/mars_corp/"><img src="https://web.archive.org/web/19971210071250im_/http://reality.sgi.com:80/images/sgipowered.gif" /><br>Wayback Machine 1997 reality.sgi.com/mars_corp</a>
-* <a target="_ref" href="http://www.evolutionoftheweb.com/">http://www.evolutionoftheweb.com/</a>
-
----
-### Life after SGI
-* Sun Java Certified Developer and Instructor 1998-2004
-* eBay Chief Instructor 2004-2009
-* Sencha Chief Instructor / Training Director 2010-2015
-* Marsland Enterprises Chief Instructor 2015-
-* DevelopIntelligence Senior Technical Instructor 2017-
 
 ---
 ### React Training
@@ -35,29 +19,11 @@
 ">ES6 - JavaScript Improved | Udacity</a>
 
 ---
-### Free Video Courses on Node University
-* <a target="_nodeu" href="https://node.university/courses/category/free">https://node.university/courses/category/free</a>
-### This course includes material from Azat Mardan's React Foundation Course with Videos
-<a target="_react_foundation" href="https://node.university/p/react-foundation">https://node.university/p/react-foundation</a>
+### Lab Setup
 
----
-### Hello React World
-<p data-height="565" data-theme-id="0" data-slug-hash="jYWpNR" data-default-tab="js,result" data-user="demarsland" data-embed-version="2" data-pen-title="Hello React World" class="codepen">See the Pen <a href="https://codepen.io/demarsland/pen/jYWpNR/">Hello React World</a> by David Marsland (<a href="https://codepen.io/demarsland">@demarsland</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-<iframe height='465' scrolling='no' title='Hello React World' src='//codepen.io/demarsland/pres/jYWpNR/?height=465&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/demarsland/pen/jYWpNR/'>Hello React World</a> by David Marsland (<a href='https://codepen.io/demarsland'>@demarsland</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+Install Node.js LTS from <a target="_setup" href="https://nodejs.org/">https://nodejs.org/</a>
 
----
-### Think In React
-<a target="_think_react" href="https://reactjs.org/docs/thinking-in-react.html">
-https://reactjs.org/docs/thinking-in-react.html</a>
-
----
-###  Setup
-
-* Install Node.js LTS from <a target="_setup" href="https://nodejs.org/">https://nodejs.org/</a>
-
-* Add node to your path, then
+Add node to your path, then
 In a terminal, cmd prompt, or powershell:
 
 ```
@@ -69,37 +35,52 @@ npm -v
 ``` 
 Should be greater than 5.0.
 
----
-### For this course you'll need either a Text Editor or an IDE.
-
-Recommended Text Editors:
-Visual Studio Code: install from <a target="_setup" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>
-or
-Sublime Text
-<a target="_setup" href="https://www.sublimetext.com/">https://www.sublimetext.com/</a>
-
----
-### Recommended IDEs
-Jetbrains IDEs, either WebStorm or IntelliJ.
-<a target="_setup" href="http://www.jetbrains.com/">http://www.jetbrains.com/</a>
-
----
-### Install eslint
+Install eslint
 ```
 npm install -g eslint
 ```
 We'll do more setup in class as needed.
 
 ---
-### Setting Up Your React Dev Environment Easily 
-* Create React App simplifies setup 
-* <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
-* <a target="_ref" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md">Create React App Docs</a>
+### For this course you'll need either a Text Editor or an IDE.
+
+#### Recommended Text Editors:
+* Visual Studio Code: install from <a target="_setup" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>
+* Sublime Text
+<a target="_setup" href="https://www.sublimetext.com/">https://www.sublimetext.com/</a>
+
+---
+### Recommended IDEs (not needed, Text Editor preferred)
+Jetbrains IDEs, either WebStorm or IntelliJ.
+<a target="_setup" href="http://www.jetbrains.com/">http://www.jetbrains.com/</a>
+
+---
+### Introducing your instructor, David Marsland
+* <a target="_ref" href="https://www.linkedin.com/in/davidemarsland">https://www.linkedin.com/in/davidemarsland</a>
+* Web Development since the Dawn of the Web <br>
+* <a target="_ref" href="https://web.archive.org/web/19970616152144fw_/http://reality.sgi.com:80/mars_corp/"><img src="https://web.archive.org/web/19971210071250im_/http://reality.sgi.com:80/images/sgipowered.gif" />
+Wayback Machine 1997 reality.sgi.com/mars_corp</a>
+* <a target="_ref" href="http://www.evolutionoftheweb.com/">http://www.evolutionoftheweb.com/</a>
+
+---
+### Life after SGI
+* Sun Java Certified Developer and Instructor 1998-2004
+* eBay Chief Instructor 2004-2009
+* Sencha Chief Instructor / Training Director 2010-2015
+* Marsland Enterprises Chief Instructor 2015-
+* DevelopIntelligence Senior Technical Instructor 2017-
+
+---
+### Hello React World
+
+<p data-height="565" data-theme-id="0" data-slug-hash="jYWpNR" data-default-tab="js,result" data-user="demarsland" data-embed-version="2" data-pen-title="Hello React World" class="codepen">See the Pen <a href="https://codepen.io/demarsland/pen/jYWpNR/">Hello React World</a> by David Marsland (<a href="https://codepen.io/demarsland">@demarsland</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 ### Tools
 
 * <a target="_ref" href="https://codesandbox.io/s/new">https://codesandbox.io/</a>
+
 ---
 ### The Evolution of the Web
 <a target="_ref" href="http://www.evolutionoftheweb.com/">http://www.evolutionoftheweb.com/</a>
@@ -116,7 +97,7 @@ The (R)Evolution of Web Development by Mark Erikson</a>
 <a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/23">
 Modern Web Development with React and Redux by Mark Erikson</a>
 
-### Think In React
+### Thinking In React
 <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">
 https://reactjs.org/docs/thinking-in-react.html</a>
 
@@ -128,7 +109,171 @@ https://reactjs.org/docs/thinking-in-react.html</a>
 * <a target="_ref" href="https://github.com/airbnb/javascript/tree/master/react#naming">Airbnb React/JSX Style Guide</a> shows one approach
 
 ---
-### Course Materials
+### React Dev Labs
+
+### Lab solutions are available here:
+<a target="_git_labs" href="https://github.com/davidmarsland/react-labs/">https://github.com/davidmarsland/react-labs/</a>
+
+---
+### Lab: Set Up React Dev Env and Create React App helloworld
+* Follow the steps in this tutorial to use Create React App for starter files
+* Then create helloworld app
+* <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
+
+---
+### Tutorial Labs: Intro to React
+<a target="_ref" href="https://reactjs.org/tutorial/tutorial.html">Facebook React Tutorial</a>
+
+---
+### Lab: Simple Table in React
+#### Implement a simple table in React
+* Generate project 
+
+```
+create-react-app simpletable
+```
+* In src directory, delete App.*
+* Start with this data from Thinking In React and declare PRODUCTS in src/index.js
+
+```
+const PRODUCTS = [
+  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+];
+```
+
+* In src directory, create file SimpleTable.jsx
+
+```
+import React from 'react';
+
+class SimpleTable extends React.Component {
+  render() {
+    return (
+      <table>
+        <tbody>
+        </tbody>
+      </table>
+    )
+  }
+}
+
+export default SimpleTable;
+```
+
+* Inside the tbody tags use an array and map() this.props.products to populate the name and price for each product
+
+```
+<tr><td>name</td><td>price</td></tr>
+```
+
+<br>Similar to this:
+
+```
+  <ul>
+    {this.props.items.map((value, index) => {
+      return <li key={index}>{value}</li>
+    })}
+  </ul>
+```
+
+* Modify index.js to render SimpleTable instead of App and pass in products={PRODUCTS} as a prop.
+* Run app in browser
+
+```
+npm start
+```
+
+---
+### Setting Up Your React Dev Environment Easily 
+* Create React App simplifies setup 
+* <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
+* <a target="_ref" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md">Create React App Docs</a>
+
+---
+### Lab: Thinking In React Filterable Product Table Catalog
+* Read the <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Tutorial</a> up to Step 2
+* Generate project 
+
+```
+create-react-app catalog
+```
+
+* Modularize the code in 
+<a target="_ref" href="https://codepen.io/gaearon/pen/BwWzwm">Step 2: Build A Static Version in React</a>
+
+* In src directory, delete App.*
+* Start with this data from Thinking In React and declare PRODUCTS in src/index.js
+
+```
+const PRODUCTS = [
+  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+];
+```
+
+* In src directory, create jsx files for each class and add import and export like this:
+
+`ProductCategoryRow.jsx`
+
+```
+import React from 'react';
+
+class ProductCategoryRow extends React.Component {
+...
+export default ProductCategoryRow;
+```
+
+* Import appropriate dependencies for each file like this:
+
+```
+import React from 'react';
+import ProductCategoryRow from './ProductCategoryRow';
+import ProductRow from './ProductRow';
+
+class ProductTable extends React.Component ...
+```
+* Modify index.js to import FilterableProductTable then render.  <br>
+Note that id is 'root', not 'container'
+
+```
+ReactDOM.render(
+  <FilterableProductTable products={PRODUCTS} />,
+  document.getElementById('root')
+);
+```
+* Run app in browser
+
+```
+npm start
+```
+---
+### Lab: Add State to Filterable Product Table
+* Read all of <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-3-identify-the-minimal-but-complete-representation-of-ui-state">Step 3:  Identify The Minimal (but complete) Representation Of UI State</a>
+* Read <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-4-identify-where-your-state-should-live">Step 4: Identify Where Your State Should Live</a>
+<br>and modify the code as described to add state
+* Complete <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-5-add-inverse-data-flow">Step 5: Add Inverse Data Flow</a>
+* Optional Challenge: Create a Cart component and add selected products to the cart
+
+```
+handleAddToCart(product) {
+    this.setState({
+      cart: this.state.cart.concat(product)  // returns a new array
+    })
+  }
+```
+* Optional Challenge: use your own test data for real shopping! 
+
+---
+### React Foundation Course Materials
 
 #### React Foundation by Azat Mardan
 <a target="_reactf" href="https://github.com/azat-co/react-foundation">
@@ -140,6 +285,12 @@ https://github.com/azat-co/react-foundation</a>
 * <a target="_ref" href="https://try.github.io">CodeSchool Free tryGit Interactive Tutorial</a>
 * <a target="_ref" href="http://kbroman.org/github_tutorial/pages/init.html">Github Guide</a>
 
+
+---
+### Free Video Courses on Node University
+* <a target="_nodeu" href="https://node.university/courses/category/free">https://node.university/courses/category/free</a>
+### This course includes material from Azat Mardan's React Foundation Course with Videos
+<a target="_react_foundation" href="https://node.university/p/react-foundation">https://node.university/p/react-foundation</a>
 
 ---
 ### React Quickly Book
@@ -178,71 +329,6 @@ React Foundation Summary</a>
 > For more information and examples, see <a target="_ref" href="http://exploringjs.com/es6/ch_modules.html">http://exploringjs.com/es6/ch_modules.html</a>. And no matter what, 
 > write modular JavaScript!"
 
----
-### Optional Homework: Final Project in React Foundation 
-* Requires many dependencies. Won't have time in this short course.
-* See <a target="_ref" href=" ">React Quickly Setup</a>
-
-* Install MongoDB.   You'll have to download and install MongoDB 
-* <a target="_ref" href="https://docs.mongodb.com/getting-started/shell/tutorial/install-mongodb-on-windows/">MongoDB Windows</a>
-* <a target="_ref" href="https://docs.mongodb.com/getting-started/shell/tutorial/">MongoDB Tutorial</a>
-
----
-### MongoDB Continued 
-* Make sure that you created these directories for MongoDB
-
-```
-mkdir c:\data\db
-mkdir c:\data\log
-```
-* You'll have to add to the System Environment Variable PATH
-```
-C:\Program Files\MongoDB\Server\3.6\bin\
-```
-* Launch new Terminal, Powershell or Cmd prompt.
-```
-mongod
-```
----
-### Optional Homework project Autocomplete
-
-* Launch another Terminal, Powershell or Cmd
-```
-cd react-foundation\code\autocomplete
-```
-* Change babel to babel-loader in webpack.config.js
-```
-npm install
-```
-* This project has many dependencies that need to be updated.
-* Even after fixing there will likely still be issues.
-```
-npm install react -D
-npm install babel-core -D
-npm install webpack -D
-```
----
-### Optional homework autocomplete issues
-* Warning: Accessing PropTypes via the main React package is deprecated. Use the prop-types package from npm instead.
-```
- npm install prop-types -D
- ```
- Then have to change code.
-``` 
- cd react-quickly\ch20\autocomplete> 
- npm start
-```
-> autocomplete@1.0.0 start C:\Users\david\git\react-quickly\ch20\autocomplete
-> npm run build && ./node_modules/.bin/node-dev index.js
-> autocomplete@1.0.0 build C:\Users\david\git\react-quickly\ch20\autocomplete
-> webpack
-* Warning: Accessing PropTypes via the main React package is deprecated. Use the prop-types package from npm instead.
-
----
-### Lab: Catalog in React
-* Implement a simple catalog in React 
-* Modularize this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
-* Optional challenges: use your own test data for real shopping! 
 ---
 ### Flux
 <a target="_ref" href="http://facebook.github.io/flux/docs/in-depth-overview.html#content">Flux from Facebook
@@ -286,6 +372,19 @@ npm run start
 
 ---
 
+### Redux Todo Example App from Redux Course 
+* <a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">https://github.com/sadams/todo-redux-react-webpack</a>
+* Clone repo, then:
+
+```
+npm install
+npm run start
+```
+
+* Launches on localhost:8080 by default.
+
+---
+
 ### Lab: Catalog with React and Redux
 * Port your simple catalog in React to use Redux for state management
 * Previously, you modularized this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
@@ -294,6 +393,22 @@ npm run start
 * See previous page for setup
 * Optional challenges: use your own test data for real shopping! 
 
+---
+### More React and Redux Learning Resources
+
+* <a target="_ref" href="https://www.fullstackreact.com/30-days-of-react/">FullStack React 30 Days of React and Redux</a>
+
+* <a target="_ref" href="https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/">React Tutorial: Cloning Yelp</a>
+
+* <a target="_ref" href="http://cabin.getstream.io/">Learn React & Redux With Cabin</a>
+
+* <a target="_ref" href="https://survivejs.com/react/introduction/">Survive JS - Webpack and React Book</a>
+
+---
+### Useful Tools 
+
+* Grip server, preview GitHub Markdown files like README.md locally
+* <a target="_ref" href="https://github.com/joeyespo/grip">https://github.com/joeyespo/grip</a>
 ---
 ### Redux Video Course by Wes Bos
 
@@ -347,7 +462,12 @@ Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 * <a target="_ref" href="http://reactquickly.co/demos">http://reactquickly.co/demos</a>
 * <a target="_ref" href=" ">Review React Foundation Course Videos from Azat Mardan</a>
 <a target="_react-quickly" href="https://livebook.manning.com/#!/book/react-quickly">React Quickly Book by Azat Mardan: Livebook</a>
-* <a target="_ref" href=" ">React Quickly Summaries<img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/BbkbQLlTRsekq9Mhu2Uq"/></a>
+* <a target="_ref" href=" ">React Quickly Summaries</a>
+
+---
+
+### Optional Homework
+<a target="_ref" href="mongodblab.md">Optional Homework: Final Project in React Foundation</a>
 
 ---
 
