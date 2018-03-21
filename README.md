@@ -19,6 +19,29 @@
   ">ES6 - JavaScript Improved | Udacity</a>
 
 ---
+
+### Course Outline
+* Introduction to React
+* React vs other libraries
+* Virtual DOM
+* JSX
+* Precompiled JSX with Babel
+* Components & their Life-Cycle
+* Properties & State
+* Events
+* Compositions
+* Reusable Components
+* Forms
+* Controlled Components
+* Uncontrolled Components
+* Related React Tools
+* React Router
+* Introduction to Flux
+* Introduction to Redux
+* Testing React Components
+* Testing Reducers
+
+---
 ### Lab Setup
 
 Install Node.js LTS from <a target="_setup" href="https://nodejs.org/">https://nodejs.org/</a>
