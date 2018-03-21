@@ -453,7 +453,7 @@ npm run start
 ---
 
 ### Optional Homework
-<a target="_ref" href="mongodblab.md">Optional Homework: Final Project in React Foundation</a>
+<a target="_ref" href="mongolab/README.md">Optional Homework: Final Project in React Foundation</a>
 
 ---
 
