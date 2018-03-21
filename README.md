@@ -99,6 +99,21 @@ Web Development since the Dawn of the Web <br>
 ### Lab solutions are available here:
 <a target="_git_labs" href="https://github.com/davidmarsland/react-labs/">https://github.com/davidmarsland/react-labs/</a>
 
+Clone this repo into the directory you want to save the course labs:
+```
+git clone https://github.com/davidmarsland/react-labs/
+```
+Then
+```
+cd react-labs
+mkdir labs
+
+cd solutions
+cd simpletable
+npm install
+npm run start
+```
+
 ---
 ### Tutorial Labs Overview: Intro to React
 <a target="_ref" href="https://reactjs.org/tutorial/tutorial.html">Facebook React Tutorial</a>
@@ -107,8 +122,12 @@ Web Development since the Dawn of the Web <br>
 
 ### Lab: Set Up React Dev Env and Create React App helloworld
 * Follow the steps in this tutorial to use Create React App for starter files
-* Then create helloworld app
-* <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
+  <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
+* Then create helloworld app inside <code>react-spike/labs</code> directory
+  ```
+  create-react-app helloworld
+  ```
+
 
 ---
 ### Thinking In React
@@ -117,7 +136,7 @@ Web Development since the Dawn of the Web <br>
 ---
 ### Lab: Simple Table in React
 #### Implement a simple table in React
-* Generate project 
+* Generate project in labs directory
 
   ```
   create-react-app simpletable
@@ -125,16 +144,16 @@ Web Development since the Dawn of the Web <br>
 * In src directory, delete App.*
 * Start with this data from Thinking In React and declare PRODUCTS in src/index.js
 
-  ```
-  const PRODUCTS = [
-    {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
-    {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
-    {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
-    {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
-    {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
-    {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
-  ];
-  ```
+```
+const PRODUCTS = [
+  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+];
+```
 
 * In src directory, create file SimpleTable.jsx
 
