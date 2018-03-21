@@ -109,7 +109,7 @@ cd react-labs
 mkdir labs
 
 cd solutions
-cd simpletable
+cd catalog3cart
 npm install
 npm run start
 ```
