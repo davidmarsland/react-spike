@@ -27,26 +27,20 @@
 state with Flux and Redux
 
 ---
-### Course Outline
-* Introduction to React
-* React vs other libraries
-* Virtual DOM
-* JSX
-* Precompiled JSX with Babel
-* Components & their Life-Cycle
-* Properties & State
-* Events
-* Compositions
-* Reusable Components
-* Forms
-* Controlled Components
-* Uncontrolled Components
-* Related React Tools
-* React Router
-* Introduction to Flux
-* Introduction to Redux
-* Testing React Components
-* Testing Reducers
+### Course Outline and Topics
+
+Day One          | Day Two 
+ -------         | ------- 
+ Intro to React  |  Virtual DOM 
+ React vs other libraries |   Forms 
+ Virtual DOM  |  Component Life-Cycle 
+ JSX |  Introduction to Flux 
+ Precompiled JSX |  Introduction to Redux 
+ Properties & State |  Uncontrolled Components 
+ Events  |  Related React Tools 
+ Compositions |  React Router 
+ Reusable Components |  Testing React Components 
+ Controlled Components |  Testing Redux Reducers 
 
 ---
 ### Lab Setup
@@ -529,7 +523,6 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 <br><input type="checkbox">  Learn how to manage application
 state with Flux and Redux
 #### Topics
-
 
 | Day One | Day Two |
 | ------- | ------- |
