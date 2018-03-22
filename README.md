@@ -501,30 +501,28 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 <a target="_ref" href="https://www.pluralsight.com/paths/react">https://www.pluralsight.com/paths/react</a>
 
 ---
-
 ### Course Review
+<input type="checkbox">Introduction to React
+<br> <input type="checkbox">React vs other libraries
+<br> <input type="checkbox">Virtual DOM
+<br> <input type="checkbox">JSX
+<br> <input type="checkbox">Precompiled JSX with Babel
+<br> <input type="checkbox">Components & their Life-Cycle
+<br> <input type="checkbox">Properties & State
+<br> <input type="checkbox">Events
+<br> <input type="checkbox">Compositions
+<br> <input type="checkbox">Reusable Components
+<br> <input type="checkbox">Forms
+<br> <input type="checkbox">Controlled Components
+<br> <input type="checkbox">Uncontrolled Components
+<br> <input type="checkbox">Related React Tools
+<br> <input type="checkbox">React Router
+<br> <input type="checkbox">Introduction to Flux
+<br> <input type="checkbox">Introduction to Redux
+<br> <input type="checkbox">Testing React Components
+<br> <input type="checkbox">Testing Reducers
 
-### Course Outline
-- [ ] Introduction to React
-- [ ] React vs other libraries
-- [ ] Virtual DOM
-- [ ] JSX
-- [ ] Precompiled JSX with Babel
-- [ ] Components & their Life-Cycle
-- [ ] Properties & State
-- [ ] Events
-- [ ] Compositions
-- [ ] Reusable Components
-- [ ] Forms
-- [ ] Controlled Components
-- [ ] Uncontrolled Components
-- [ ] Related React Tools
-- [ ] React Router
-- [ ] Introduction to Flux
-- [ ] Introduction to Redux
-- [ ] Testing React Components
-- [ ] Testing Reducers
-
+---
 ### Congratulations, you are now all React Developers!
 
 <a target="_di" href="http://developintelligence.com"><img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
