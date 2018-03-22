@@ -464,6 +464,7 @@ npm run start
 * Defining a router class with the routes object as a mapping from URL fragments to functions
 * Rendering React elements in the methods/functions of the Backbone Router class
 * Instantiating and starting the Backbone the Router object
+
 ---
 ### React Native Intro
 <a target="_ref" href="https://www.slideshare.net/ModusJesus/intro-to-react-native">Intro to React Native</a>
@@ -475,7 +476,18 @@ npm run start
 * <a target="_ref" href=" ">React Quickly Summaries</a>
 
 ---
+### Testing React Components
 
+<a target="_ref" href="https://facebook.github.io/jest/docs/en/tutorial-react.html">Facebook Tutorial:  Testing React Components with Jest</a>
+
+<a target="_ref" href="http://www.softwareishard.com/blog/testing/modern-react-component-testing-with-create-react-app-jest-and-enzyme/">Modern React Component Testing with create-react-app, Jest, and Enzyme</a>
+
+---
+### Testing Redux Reducers and More with Jest
+
+<a target="_ref" href="https://hackernoon.com/redux-testing-step-by-step-a-simple-methodology-for-testing-business-logic-8901670756ce">Redux Testing Step by Step: A Simple Methodology for Testing Business Logic</a>
+
+---
 ### Optional Homework
 <a target="_ref" href="mongolab/">Optional Homework: Final AutoComplete Project in React Foundation</a>
 
@@ -520,7 +532,7 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 <br> <input type="checkbox">  Introduction to Flux
 <br> <input type="checkbox">  Introduction to Redux
 <br> <input type="checkbox">  Testing React Components
-<br> <input type="checkbox">  Testing Reducers
+<br> <input type="checkbox">  Testing Redux Reducers
 
 ---
 ### Congratulations, you are now all React Developers!
