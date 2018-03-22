@@ -502,25 +502,25 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 
 ---
 ### Course Review
-<input type="checkbox">Introduction to React
-<br> <input type="checkbox">React vs other libraries
-<br> <input type="checkbox">Virtual DOM
-<br> <input type="checkbox">JSX
-<br> <input type="checkbox">Precompiled JSX with Babel
-<br> <input type="checkbox">Components & their Life-Cycle
-<br> <input type="checkbox">Properties & State
-<br> <input type="checkbox">Events
-<br> <input type="checkbox">Compositions
-<br> <input type="checkbox">Reusable Components
-<br> <input type="checkbox">Forms
-<br> <input type="checkbox">Controlled Components
-<br> <input type="checkbox">Uncontrolled Components
-<br> <input type="checkbox">Related React Tools
-<br> <input type="checkbox">React Router
-<br> <input type="checkbox">Introduction to Flux
-<br> <input type="checkbox">Introduction to Redux
-<br> <input type="checkbox">Testing React Components
-<br> <input type="checkbox">Testing Reducers
+<input type="checkbox">  Introduction to React
+<br> <input type="checkbox">  React vs other libraries
+<br> <input type="checkbox">  Virtual DOM
+<br> <input type="checkbox">  JSX
+<br> <input type="checkbox">  Precompiled JSX with Babel
+<br> <input type="checkbox">  Components & their Life-Cycle
+<br> <input type="checkbox">  Properties & State
+<br> <input type="checkbox">  Events
+<br> <input type="checkbox">  Compositions
+<br> <input type="checkbox">  Reusable Components
+<br> <input type="checkbox">  Forms
+<br> <input type="checkbox">  Controlled Components
+<br> <input type="checkbox">  Uncontrolled Components
+<br> <input type="checkbox">  Related React Tools
+<br> <input type="checkbox">  React Router
+<br> <input type="checkbox">  Introduction to Flux
+<br> <input type="checkbox">  Introduction to Redux
+<br> <input type="checkbox">  Testing React Components
+<br> <input type="checkbox">  Testing Reducers
 
 ---
 ### Congratulations, you are now all React Developers!
