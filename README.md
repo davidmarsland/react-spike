@@ -361,6 +361,49 @@ https://github.com/azat-co/react-foundation</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">React Foundation Summary</a>
 
 ---
+### React Foundation Course Labs
+* We'll only do the first labs here
+* Lab 1 Issues:
+Complete package.json:
+```
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "build-watch": "./node_modules/.bin/webpack -w"
+  },
+  "author": "",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "webpack": "1.13.3"
+  }
+}
+```
+```
+npm run build
+```
+```
+ERROR in Entry module not found: Error: Can't resolve 'babel' in 'C:\Users\david\git\react-training\react-labs\labs\react-project'
+BREAKING CHANGE: It's no longer allowed to omit the '-loader' suffix when using loaders.
+  You need to specify 'babel-loader' instead of 'babel',
+  see https://webpack.js.org/guides/migrating/#automatic-loader-module-name-extension-removed
+  ```
+
+
+---
 ### Flux
 <a target="_ref" href="http://facebook.github.io/flux/docs/in-depth-overview.html#content">Flux from Facebook
 
