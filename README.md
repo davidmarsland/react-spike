@@ -40,6 +40,7 @@
 * Introduction to Redux
 * Testing React Components
 * Testing Reducers
+
 ---
 ### Lab Setup
 
