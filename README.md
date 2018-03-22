@@ -314,11 +314,12 @@ Note that id is 'root', not 'container'
 https://github.com/azat-co/react-foundation</a>
 
 ### Download zip or clone.
+
+---
 ### Github Tutorials
 
 * <a target="_ref" href="https://try.github.io">CodeSchool Free tryGit Interactive Tutorial</a>
 * <a target="_ref" href="http://kbroman.org/github_tutorial/pages/init.html">Github Guide</a>
-
 
 ---
 ### Free Video Courses on Node University
@@ -337,6 +338,19 @@ https://github.com/azat-co/react-foundation</a>
 
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-intro.md">Course Intro</a>
 
+
+---
+### CommonJS import/require module.exports vs. ES6 modules import/export
+
+* React Foundation Course uses Node CommonJS module
+* Why?  Can use same syntax with server-side Node and Client side
+* <a target="_ref" href="voidcanvas.com/import-vs-require/">voidcanvas.com/import-vs-require/</a>
+* <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/appendix-e/136">React Quickly Appendix E: ES6 Modules</a>
+> Azat Mardan wrote: "Personally, I find ES6 modules confusing. Yes, they’re more eloquent, but Node.js modules won’t change anytime soon. It’s better to have only one style for browser and server JavaScript, so I’ll stick with CommonJS/Node.js style for now. 
+
+> For more information and examples, see <a target="_ref" href="http://exploringjs.com/es6/ch_modules.html">http://exploringjs.com/es6/ch_modules.html</a>. And no matter what, 
+> write modular JavaScript!"
+
 ---
 ### React Foundation Course Modules
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-01.md">Module 1 Hello React World</a>
@@ -345,20 +359,6 @@ https://github.com/azat-co/react-foundation</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-03.md">Module 3 User Input</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-04.md">Module 4 Advancing Components</a>
 * <a target="_react" href="https://github.com/azat-co/react-foundation/blob/master/react-outro.md">React Foundation Summary</a>
-
----
-
-### CommonJS import/require module.exports vs. ES6 modules import/export
-
-* React Foundation Course uses Node CommonJS module
-* Why?  Can use same syntax with server-side Node and Client side
-
-* <a target="_ref" href="voidcanvas.com/import-vs-require/">voidcanvas.com/import-vs-require/</a>
-* <a target="_ref" href="https://livebook.manning.com/#!/book/react-quickly/appendix-e/136">React Quickly Appendix E: ES6 Modules</a>
-> Azat Mardan wrote: "Personally, I find ES6 modules confusing. Yes, they’re more eloquent, but Node.js modules won’t change anytime soon. It’s better to have only one style for browser and server JavaScript, so I’ll stick with CommonJS/Node.js style for now. In addition, support for ES6 modules in browsers isn’t available as of this writing, so you’ll need something like jspm (<a target="_ref" href="http://jspm.io">http://jspm.io</a>) to use ES6 modules.
-
-> For more information and examples, see <a target="_ref" href="http://exploringjs.com/es6/ch_modules.html">http://exploringjs.com/es6/ch_modules.html</a>. And no matter what, 
-> write modular JavaScript!"
 
 ---
 ### Flux
