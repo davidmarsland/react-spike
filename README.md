@@ -398,9 +398,10 @@ npm run build
 ```
 ERROR in Entry module not found: Error: Can't resolve 'babel' in 'C:\Users\david\git\react-training\react-labs\labs\react-project'
 BREAKING CHANGE: It's no longer allowed to omit the '-loader' suffix when using loaders.
-  You need to specify 'babel-loader' instead of 'babel',
+  You need to specify 'babel-loader' instead of 'babel'
+```
   see https://webpack.js.org/guides/migrating/#automatic-loader-module-name-extension-removed
-  ```
+  
 
 
 ---
