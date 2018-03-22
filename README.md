@@ -9,7 +9,7 @@
 
 ---
 ### React Training
-* Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications
+<input type="checkbox">  Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications
 
 * Prerequisites: Advanced JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns
 
@@ -19,7 +19,14 @@
   ">ES6 - JavaScript Improved | Udacity</a>
 
 ---
+### Course Objectives
+* Describe React and the problem it solves
+* Explore the basic architecture of a React component
+* Gain a deep knowledge of React components and JSX
+* Learn how to manage application
+state with Flux and Redux
 
+---
 ### Course Outline
 * Introduction to React
 * React vs other libraries
@@ -515,25 +522,27 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 
 ---
 ### Course Review
-<input type="checkbox">  Introduction to React
-<br> <input type="checkbox">  React vs other libraries
-<br> <input type="checkbox">  Virtual DOM
-<br> <input type="checkbox">  JSX
-<br> <input type="checkbox">  Precompiled JSX with Babel
-<br> <input type="checkbox">  Components & their Life-Cycle
-<br> <input type="checkbox">  Properties & State
-<br> <input type="checkbox">  Events
-<br> <input type="checkbox">  Compositions
-<br> <input type="checkbox">  Reusable Components
-<br> <input type="checkbox">  Forms
-<br> <input type="checkbox">  Controlled Components
-<br> <input type="checkbox">  Uncontrolled Components
-<br> <input type="checkbox">  Related React Tools
-<br> <input type="checkbox">  React Router
-<br> <input type="checkbox">  Introduction to Flux
-<br> <input type="checkbox">  Introduction to Redux
-<br> <input type="checkbox">  Testing React Components
-<br> <input type="checkbox">  Testing Redux Reducers
+#### Course Objectives
+<input type="checkbox">  Describe React and the problem it solves
+<br><input type="checkbox">  Explore the basic architecture of a React component
+<br><input type="checkbox">  Gain a deep knowledge of React components and JSX
+<br><input type="checkbox">  Learn how to manage application
+state with Flux and Redux
+#### Topics
+
+
+| Day One | Day Two |
+| ------- | ------- |
+| <input type="checkbox">  Intro to React | <input type="checkbox">  Virtual DOM |
+| <input type="checkbox">  React vs other libraries |  <input type="checkbox">  Forms |
+| <input type="checkbox">  Virtual DOM  | <input type="checkbox">  Component Life-Cycle |
+| <input type="checkbox">  JSX | <input type="checkbox">  Introduction to Flux |
+| <input type="checkbox">  Precompiled JSX | <input type="checkbox">  Introduction to Redux |
+| <input type="checkbox">  Properties & State | <input type="checkbox">  Uncontrolled Components |
+| <input type="checkbox">  Events  | <input type="checkbox">  Related React Tools |
+| <input type="checkbox">  Compositions | <input type="checkbox">  React Router |
+| <input type="checkbox">  Reusable Components| <input type="checkbox">  Testing React Components |
+| <input type="checkbox">  Controlled Components| <input type="checkbox">  Testing Redux Reducers |
 
 ---
 ### Congratulations, you are now all React Developers!
