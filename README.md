@@ -505,25 +505,25 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 ### Course Review
 
 ### Course Outline
-[ ] Introduction to React
-[ ] React vs other libraries
-[ ] Virtual DOM
-[ ] JSX
-[ ] Precompiled JSX with Babel
-[ ] Components & their Life-Cycle
-[ ] Properties & State
-[ ] Events
-[ ] Compositions
-[ ] Reusable Components
-[ ] Forms
-[ ] Controlled Components
-[ ] Uncontrolled Components
-[ ] Related React Tools
-[ ] React Router
-[ ] Introduction to Flux
-[ ] Introduction to Redux
-[ ] Testing React Components
-[ ] Testing Reducers
+- [ ] Introduction to React
+- [ ] React vs other libraries
+- [ ] Virtual DOM
+- [ ] JSX
+- [ ] Precompiled JSX with Babel
+- [ ] Components & their Life-Cycle
+- [ ] Properties & State
+- [ ] Events
+- [ ] Compositions
+- [ ] Reusable Components
+- [ ] Forms
+- [ ] Controlled Components
+- [ ] Uncontrolled Components
+- [ ] Related React Tools
+- [ ] React Router
+- [ ] Introduction to Flux
+- [ ] Introduction to Redux
+- [ ] Testing React Components
+- [ ] Testing Reducers
 
 ### Congratulations, you are now all React Developers!
 
