@@ -40,7 +40,6 @@
 * Introduction to Redux
 * Testing React Components
 * Testing Reducers
-
 ---
 ### Lab Setup
 
@@ -478,7 +477,7 @@ npm run start
 ---
 
 ### Optional Homework
-<a target="_ref" href="mongolab/">Optional Homework: Final Project in React Foundation</a>
+<a target="_ref" href="mongolab/">Optional Homework: Final AutoComplete Project in React Foundation</a>
 
 ---
 
@@ -502,6 +501,30 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 <a target="_ref" href="https://www.pluralsight.com/paths/react">https://www.pluralsight.com/paths/react</a>
 
 ---
+
+### Course Review
+
+### Course Outline
+[ ] Introduction to React
+[ ] React vs other libraries
+[ ] Virtual DOM
+[ ] JSX
+[ ] Precompiled JSX with Babel
+[ ] Components & their Life-Cycle
+[ ] Properties & State
+[ ] Events
+[ ] Compositions
+[ ] Reusable Components
+[ ] Forms
+[ ] Controlled Components
+[ ] Uncontrolled Components
+[ ] Related React Tools
+[ ] React Router
+[ ] Introduction to Flux
+[ ] Introduction to Redux
+[ ] Testing React Components
+[ ] Testing Reducers
+
 ### Congratulations, you are now all React Developers!
 
 <a target="_di" href="http://developintelligence.com"><img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
