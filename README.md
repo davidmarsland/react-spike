@@ -9,7 +9,7 @@
 
 ---
 ### React Training
-<input type="checkbox">  Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications
+* Core Audience: Experienced JavaScript developers interested in bringing structure to their rapidly growing web applications
 
 * Prerequisites: Advanced JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns
 
@@ -31,15 +31,15 @@ state with Flux and Redux
 
 Day One          | Day Two 
  -------         | ------- 
- Intro to React  |  Virtual DOM 
- React vs other libraries |   Forms 
- Virtual DOM  |  Component Life-Cycle 
- JSX |  Introduction to Flux 
- Precompiled JSX |  Introduction to Redux 
- Properties & State |  Uncontrolled Components 
- Events  |  Related React Tools 
+ Intro to React  | Uncontrolled Components  
+ React vs other libraries | Component Life-Cycle  
+ Virtual DOM  |  Forms
+ JSX | Building Apps  
+ Precompiled JSX | Introduction to Flux 
+ Properties & State | Introduction to Redux   
+ Reusable Components |  Related React Tools 
  Compositions |  React Router 
- Reusable Components |  Testing React Components 
+ Events |  Testing React Components 
  Controlled Components |  Testing Redux Reducers 
 
 ---
@@ -508,13 +508,6 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 ```
 
 ---
-
-#### PluralSight React Skills Assessment
-15 minute test of your proficiency in React.  Should be able to take once with 1 redo.
-
-<a target="_ref" href="https://www.pluralsight.com/paths/react">https://www.pluralsight.com/paths/react</a>
-
----
 ### Course Review
 #### Course Objectives
 <input type="checkbox">  Describe React and the problem it solves
@@ -522,20 +515,29 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 <br><input type="checkbox">  Gain a deep knowledge of React components and JSX
 <br><input type="checkbox">  Learn how to manage application
 state with Flux and Redux
-#### Topics
+
+---
+#### Topics Review
 
 | Day One | Day Two |
 | ------- | ------- |
-| <input type="checkbox">  Intro to React | <input type="checkbox">  Virtual DOM |
-| <input type="checkbox">  React vs other libraries |  <input type="checkbox">  Forms |
-| <input type="checkbox">  Virtual DOM  | <input type="checkbox">  Component Life-Cycle |
-| <input type="checkbox">  JSX | <input type="checkbox">  Introduction to Flux |
-| <input type="checkbox">  Precompiled JSX | <input type="checkbox">  Introduction to Redux |
-| <input type="checkbox">  Properties & State | <input type="checkbox">  Uncontrolled Components |
-| <input type="checkbox">  Events  | <input type="checkbox">  Related React Tools |
+| <input type="checkbox">  Intro to React | <input type="checkbox">  Uncontrolled Components |
+| <input type="checkbox">  React vs other libraries | <input type="checkbox">  Component Life-Cycle  |
+| <input type="checkbox">  Virtual DOM  | <input type="checkbox">  Forms |
+| <input type="checkbox">  JSX | <input type="checkbox">  Building Apps |
+| <input type="checkbox">  Precompiled JSX | <input type="checkbox">   Introduction to Flux
+| <input type="checkbox">  Properties & State | <input type="checkbox">  Introduction to Redux |
+| <input type="checkbox">  Reusable Components  | <input type="checkbox">  Related React Tools |
 | <input type="checkbox">  Compositions | <input type="checkbox">  React Router |
-| <input type="checkbox">  Reusable Components| <input type="checkbox">  Testing React Components |
+| <input type="checkbox">  Events | <input type="checkbox">  Testing React Components |
 | <input type="checkbox">  Controlled Components| <input type="checkbox">  Testing Redux Reducers |
+
+---
+
+#### PluralSight React Skills Assessment
+15 minute test of your proficiency in React.  Should be able to take once with 1 redo.
+
+<a target="_ref" href="https://www.pluralsight.com/paths/react">https://www.pluralsight.com/paths/react</a>
 
 ---
 ### Congratulations, you are now all React Developers!
