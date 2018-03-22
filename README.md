@@ -13,9 +13,9 @@
 
 * Prerequisites: Advanced JavaScript that includes Object Oriented concepts, Ajax, promises, prototypal inheritance, ES6 and module design patterns
 
-* If you don't know ES6, aka ES2015, here are some good tutorials:
-  * <a target="_babel" href="https://babeljs.io/learn-es2015/">https://babeljs.io/learn-es2015/</a>
-  * <a target="_udacity" href="https://www.udacity.com/course/es6-javascript-improved--ud356
+* If you want to learn more about ES6, aka ES2015, here are some good tutorials:
+      <br><a target="_babel" href="https://babeljs.io/learn-es2015/">https://babeljs.io/learn-es2015/</a>
+      <br><a target="_udacity" href="https://www.udacity.com/course/es6-javascript-improved--ud356
   ">ES6 - JavaScript Improved | Udacity</a>
 
 ---
