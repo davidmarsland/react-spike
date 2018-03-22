@@ -423,6 +423,7 @@ npm run start
 
 * Grip server, preview GitHub Markdown files like README.md locally
 * <a target="_ref" href="https://github.com/joeyespo/grip">https://github.com/joeyespo/grip</a>
+
 ---
 ### Redux Video Course by Wes Bos
 
@@ -455,6 +456,7 @@ npm run start
 * <a target="_ref" href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a>
 * <a target="_ref" href="https://github.com/ReactTraining/react-router">https://github.com/ReactTraining/react-router</a>
 <a target="_ref" href="https://github.com/reactjs/react-router-tutorial">react-router tutorial https://github.com/reactjs/react-router-tutorial</a>
+
 ---
 ### Routing with Backbone and React
 * <a target="_ref" href=" ">React Quickly has a Backbone routing example in Ch. 13</a>
@@ -506,4 +508,5 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 </a>
 <br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-spike/">https://davidmarsland.github.io/react-spike/</a>
-### Thanks, please fill out course eval now, comments appreciated
+### Thanks, please fill out course eval now, your comments are greatly appreciated!
+<a target="_ref" href="https://www.surveymonkey.com/r/9MNKGZ7">React Training Survey</a>
