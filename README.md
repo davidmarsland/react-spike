@@ -559,7 +559,7 @@ state with Flux and Redux
 ---
 #### Topics Review
 
-| React Training | Redux & React + React Router Training |
+| React Training | Redux & React + React Router |
 | ------- | ------- |
 | <input type="checkbox">  Intro to React | <input type="checkbox">  Uncontrolled Components |
 | <input type="checkbox">  React vs other libraries | <input type="checkbox">  Component Life-Cycle  |
