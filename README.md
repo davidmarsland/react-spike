@@ -29,7 +29,7 @@ state with Flux and Redux
 ---
 ### Course Outline and Topics
 
-Day One          | Day Two 
+React Training   | Redux with React and React Router Training 
  -------         | ------- 
  Intro to React  | Uncontrolled Components  
  React vs other libraries | Component Life-Cycle  
@@ -559,7 +559,7 @@ state with Flux and Redux
 ---
 #### Topics Review
 
-| Day One | Day Two |
+| React Training | Redux & React + React Router Training |
 | ------- | ------- |
 | <input type="checkbox">  Intro to React | <input type="checkbox">  Uncontrolled Components |
 | <input type="checkbox">  React vs other libraries | <input type="checkbox">  Component Life-Cycle  |
