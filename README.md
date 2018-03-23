@@ -324,7 +324,9 @@ https://github.com/azat-co/react-foundation</a>
 ---
 ### Free Video Courses on Node University
 * <a target="_nodeu" href="https://node.university/courses/category/free">https://node.university/courses/category/free</a>
-### This course includes material from Azat Mardan's React Foundation Course with Videos
+
+---
+### This course includes material from Azat Mardan's React Foundation Course
 <a target="_react_foundation" href="https://node.university/p/react-foundation">https://node.university/p/react-foundation</a>
 
 ---
@@ -429,7 +431,7 @@ Redux Example Incrementer</a>
 * <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 
 #### Redux Course Notes
-* <a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">Redux Course Notes https://github.com/tayiorbeii/egghead.io_redux_course_notes</a>
+* <a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">Redux Course Notes</a>
 
 ---
 
@@ -462,12 +464,6 @@ npm run start
 * <a target="_ref" href="http://cabin.getstream.io/">Learn React & Redux With Cabin</a>
 
 * <a target="_ref" href="https://survivejs.com/react/introduction/">Survive JS - Webpack and React Book</a>
-
----
-### Useful Tools 
-
-* Grip server, preview GitHub Markdown files like README.md locally
-* <a target="_ref" href="https://github.com/joeyespo/grip">https://github.com/joeyespo/grip</a>
 
 ---
 ### Redux Video Course by Wes Bos
@@ -504,7 +500,7 @@ npm run start
 
 ---
 ### Routing with Backbone and React
-* <a target="_ref" href=" ">React Quickly has a Backbone routing example in Ch. 13</a>
+* React Quickly has a Backbone routing example in Ch. 13
 * <a target="_ref" href="https://github.com/azat-co/react-quickly/tree/master/ch13">https://github.com/azat-co/react-quickly/tree/master/ch13</a>
 ### Backbone router to render React components by doing the following:
 * Defining a router class with the routes object as a mapping from URL fragments to functions
