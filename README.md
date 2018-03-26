@@ -158,7 +158,6 @@ git clone https://github.com/davidmarsland/react-labs/
 Then
 ```
 cd react-labs
-mkdir labs
 
 cd solutions
 cd catalog3cart
