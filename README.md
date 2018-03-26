@@ -29,7 +29,7 @@ state with Flux and Redux
 ---
 ### Course Outline and Topics
 
-React Training   | Redux with React and React Router Training 
+React Training   | Redux with React and React Router 
  -------         | ------- 
  Intro to React  | Uncontrolled Components  
  React vs other libraries | Component Life-Cycle  
@@ -45,9 +45,8 @@ React Training   | Redux with React and React Router Training
 ---
 ### Lab Setup
 
-Install Node.js LTS from <a target="_setup" href="https://nodejs.org/">https://nodejs.org/</a>
+First check if you have node installed.
 
-Add node to your path, then
 In a terminal, cmd prompt, or powershell:
 
 ```
@@ -57,13 +56,42 @@ Should be >= 8.0
 ```
 npm -v
 ``` 
-Should be greater than 5.0.
+Should be greater than 5.2
+
+
+If needed, install <strong>Node.js LTS</strong> from <a target="_setup" href="https://nodejs.org/">https://nodejs.org/</a>
+
+Add node to your path if necessary, then 
+In a new terminal, cmd prompt, or powershell (must start new terminal to see new path):
+
+```
+node -v
+```
+Should be >= 8.0
+```
+npm -v
+``` 
+Should be greater than 5.2
 
 Install eslint
 ```
 npm install -g eslint
 ```
-We'll do more setup in class as needed.
+
+---
+### Create and run your first React app!
+
+Try creating and running a starter app with create-react-app
+```
+npx create-react-app starter
+
+cd starter
+npm start
+```
+
+<a target="_ref" href="https://github.com/facebook/create-react-app/blob/master/README.md#getting-started">Create React App: Getting Started</a>
+
+<br>We'll do more setup in class as needed.
 
 ---
 ### For this course you'll need either a Text Editor or an IDE.
@@ -143,14 +171,21 @@ npm run start
 <a target="_ref" href="https://reactjs.org/tutorial/tutorial.html">Facebook React Tutorial</a>
 
 ---
+### Create React App Simpler Project Setup from Facebook
 
+<a target="_ref" href="https://github.com/facebook/create-react-app/blob/master/README.md#getting-started">Create React App: Getting Started</a>
+
+---
 ### Lab: Set Up React Dev Env and Create React App helloworld
 * Follow the steps in this tutorial to use Create React App for starter files
   <a target="_ref" href="https://www.kirupa.com/react/setting_up_react_environment.htm">https://www.kirupa.com/react/setting_up_react_environment.htm</a>
 * Then create helloworld app inside <code>react-spike/labs</code> directory
   ```
-  create-react-app helloworld
+  npx create-react-app helloworld
   ```
+* <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/startercreatereactapp/build/">Starter Create React App Online</a>  
+* <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/helloworld/build/">Helloworld App Online</a>
+
 
 
 ---
@@ -160,10 +195,11 @@ npm run start
 ---
 ### Lab: Simple Table in React
 #### Implement a simple table in React
+#### Here's the app you're about to create: <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/simpletable/build/">Lab Solution Online</a>
 * Generate project in labs directory
 
   ```
-  create-react-app simpletable
+  npx create-react-app simpletable
   ```
 * In src directory, delete App.*
 * Start with this data from Thinking In React and declare PRODUCTS in src/index.js
@@ -229,11 +265,15 @@ npm start
 
 ---
 ### Lab: Thinking In React Filterable Product Table Catalog
+
+#### Here's the app you're about to create: <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog1static/build/">Lab Solution Online</a>  
+
+
 * Read the <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Tutorial</a> up to Step 2
 * Generate project 
 
   ```
-  create-react-app catalog
+  npx create-react-app catalog
   ```
 
 * Modularize the code in 
@@ -288,12 +328,21 @@ Note that id is 'root', not 'container'
   ```
   npm start
   ```
+
 ---
 ### Lab: Add State to Filterable Product Table
+
+#### Here's the app you're about to create: <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog2state/build/">Lab Solution Online</a>
+
 * Read all of <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-3-identify-the-minimal-but-complete-representation-of-ui-state">Step 3:  Identify The Minimal (but complete) Representation Of UI State</a>
 * Read <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-4-identify-where-your-state-should-live">Step 4: Identify Where Your State Should Live</a>
 <br>and modify the code as described to add state
 * Complete <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html#step-5-add-inverse-data-flow">Step 5: Add Inverse Data Flow</a>
+
+---
+#### Optional Challenge: Add Cart
+#### Here's the <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog3cart/build/">Lab Solution Online</a>  
+
 * Optional Challenge: Create a Cart component and add selected products to the cart
 
   ```
@@ -304,7 +353,14 @@ Note that id is 'root', not 'container'
       })
     }
   ```
-* Optional Challenge: use your own test data for real shopping! 
+* Optional Challenge: use your own test data for real shopping!
+
+#### Optional Cart <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog3cartghp/build/">Lab Solution Online</a> 
+
+---
+### Alternative Approach: Refactor to use Functional Classes
+
+#### Here's the <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog4cartfunctional/build/">Lab Solution Refactored to Functional Online</a>  
 
 ---
 ### React Foundation Course Materials
