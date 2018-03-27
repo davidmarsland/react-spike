@@ -1,3 +1,4 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 ### Welcome to React Training
 #### Instructor: David Marsland
 <br>
@@ -137,6 +138,9 @@ Web Development since the Dawn of the Web <br>
 * <a target="_ref" href="https://blog.keepsite.com/a-brief-history-of-the-web-809509ba23df">A Brief History of the Web</a>
 
 * <a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/#/?_k=8f5q6o">The (R)Evolution of Web Development by Mark Erikson</a>
+---
+### Modern Web Development with React and Redux
+<a target="_isquared" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/0">Modern Web Development with React and Redux by Mark Erikson</a>
 
 ---
 ### Naming Conventions
@@ -340,8 +344,6 @@ Note that id is 'root', not 'container'
 
 ---
 #### Optional Challenge: Add Cart
-#### Here's the <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog3cart/build/">Lab Solution Online</a>  
-
 * Optional Challenge: Create a Cart component and add selected products to the cart
 
   ```
@@ -357,9 +359,9 @@ Note that id is 'root', not 'container'
 #### Optional Cart <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog3cartghp/build/">Lab Solution Online</a> 
 
 ---
-### Alternative Approach: Refactor to use Functional Classes
+### Alternative Approach: Refactor to use Functional Components
 
-#### Here's the <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog4cartfunctional/build/">Lab Solution Refactored to Functional Online</a>  
+#### Here's the <a target="_ref" href="https://davidmarsland.github.io/react-labs/solutions/catalog4cartfunctional/build/">Lab Solution Refactored to Functional Components Online</a>  
 
 ---
 ### React Foundation Course Materials
@@ -472,18 +474,31 @@ BREAKING CHANGE: It's no longer allowed to omit the '-loader' suffix when using 
 <a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/33">
 State Management with React and Redux</a>
 
+
 ---
 ### Redux example and Lab
 <a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh/">
 Redux Example Incrementer</a>
 
 ---
-### Free Course Videos from Dan Abramov
-#### Learn Redux from its creator:
+### Redux DevTools
 
-* <a target="_ref" href="https://egghead.io/series/getting-started-with-redux">Part 1: Getting Started with Redux (30 free videos)</a>
+<a target="_ref" href="https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en">Redux DevTools - Chrome Web Store</a>
 
-* <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
+Note must add a line to source code to enable tooling.  Try this on a Redux example without this and it will provide instructions:
+    No store found. Make sure to follow the <a target="_ref" href="https://github.com/zalmoxisus/redux-devtools-extension#usage">instructions</a>.
+
+For a basic Redux store simply add:            
+```JavaScript
+ const store = createStore(
+   reducer, /* preloadedState, */
++  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+ );
+```
+
+
+
+
 
 #### Redux Course Notes
 * <a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">Redux Course Notes</a>
@@ -500,7 +515,16 @@ npm run start
 * Launches on localhost:8080 by default.
 
 ---
+### Redux Labs
 
+
+* <a target="_ref" href="https://thinkster.io/tutorials/learn-redux/">Thinkster: Learn The Fundamentals of Redux from thinkster.io</a>
+<br>Note, to do the labs you will have to change git commands similar to this:
+```
+git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app.git
+```
+
+---
 ### Optional Lab: Catalog with React and Redux
 * Port your simple catalog in React to use Redux for state management
 * Previously, you modularized this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
@@ -508,6 +532,15 @@ npm run start
 * Use Todo Redux example for inspiration <a target="_redux" href="https://github.com/sadams/todo-redux-react-webpack">https://github.com/sadams/todo-redux-react-webpack</a>
 * See previous page for setup
 * Optional challenges: use your own test data for real shopping! 
+
+---
+### Free Course Videos from Dan Abramov
+#### Learn Redux from its creator:
+
+* <a target="_ref" href="https://egghead.io/series/getting-started-with-redux">Part 1: Getting Started with Redux (30 free videos)</a>
+
+* <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
+
 
 ---
 ### More React and Redux Learning Resources
@@ -593,14 +626,6 @@ npm run start
 ### React and Redux Resources
 
 * <a target="_ref" href="https://www.robinwieruch.de/tips-to-learn-react-redux/">Tips to learn React + Redux in 2018</a>
-
-* <a target="_ref" href="https://thinkster.io/tutorials/learn-redux/">Thinkster: Learn The Fundamentals of Redux</a>
-<br>Note, to do the labs you will have to change git commands similar to this:
-
-```
-git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app.git
-
-```
 
 ---
 ### Course Review
