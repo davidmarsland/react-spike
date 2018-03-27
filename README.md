@@ -1,4 +1,6 @@
+<head>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
 ### Welcome to React Training
 #### Instructor: David Marsland
 <br>
