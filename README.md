@@ -555,6 +555,11 @@ For a basic Redux store simply add:
 * <a target="_reduxsolutions" href="./redux-solutions/mars02conduit">Lab Solution Online</a>
 
 ---
+### Lab: Redux with Multiple Components
+<a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/communicating-across-multiple-components">Communicating Across Multiple Components</a>
+* <a target="_reduxsolutions" href="./redux-solutions/mars03conduitloading">Lab Solution Online</a>
+
+---
 ### Optional Lab: Catalog with React and Redux
 * Port your simple catalog in React to use Redux for state management
 * Previously, you modularized this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
