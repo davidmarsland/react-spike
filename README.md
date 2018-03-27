@@ -517,12 +517,34 @@ npm run start
 ### Redux Labs
 
 
-* <a target="_ref" href="https://thinkster.io/tutorials/learn-redux/">Thinkster: Learn The Fundamentals of Redux from thinkster.io</a>
+* <a target="_thinkster" href="https://thinkster.io/tutorials/learn-redux/">Thinkster: Learn The Fundamentals of Redux from thinkster.io</a>
 <br>Note, to do the labs you will have to change git commands similar to this:
 ```
 git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app.git
 ```
 
+* Create a free account and/or login with github
+
+---
+### Lab: Learn the Fundamentals of Redux
+* Do the first lab <a target="_ref" href="https://thinkster.io/tutorials/learn-redux">Lab: Learn the Fundamentals of Redux</a>
+* Add Redux store with `createStore()`
+* Add DevTools to `createStore()` as on the previous page:
+
+For a basic Redux store simply add:            
+```JavaScript
+ const store = createStore(
+   reducer, /* preloadedState, */
++  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+ );
+```
+
+---
+### Lab: Displaying the State
+<a target="_thinkster" href="https://thinkster.io/tutorials/learn-redux/displaying-the-state">Lab: Displaying the State<a>
+* Subsribe the store to React's `setState()`
+* Display checkbox tied to state
+* <a target="_reduxsolutions" href="./redux-solutions/mars01todos">Lab Solution Online</a>
 ---
 ### Optional Lab: Catalog with React and Redux
 * Port your simple catalog in React to use Redux for state management
