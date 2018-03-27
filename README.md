@@ -545,6 +545,15 @@ For a basic Redux store simply add:
 * Subsribe the store to React's `setState()`
 * Display checkbox tied to state
 * <a target="_reduxsolutions" href="./redux-solutions/mars01todos">Lab Solution Online</a>
+
+---
+### Lab: Using react-redux
+<a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/introducing-react-redux">Setting up react-redux</a>
+* Remember to remove App component from index.js
+* Add components folder to src and create App.js there `src/components/App.js`
+* Building Conduit Site and adding Provider
+* <a target="_reduxsolutions" href="./redux-solutions/mars02conduit">Lab Solution Online</a>
+
 ---
 ### Optional Lab: Catalog with React and Redux
 * Port your simple catalog in React to use Redux for state management
