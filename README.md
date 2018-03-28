@@ -516,8 +516,9 @@ npm run start
 ```
 git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app.git
 ```
-Then `npm install` to download node modules (may take a while on windows) and `npm start` to run a development server
+Then `cd react-redux-realworld-example-app` and <br> `npm install` to download node modules (may take a while on windows) and `npm run start` to run a development server
 ```
+cd react-redux-realworld-example-app
 npm install
 npm run start
 ```
@@ -525,7 +526,13 @@ npm run start
 
 ---
 ### Lab: Learn the Fundamentals of Redux
-* Do the first lab <a target="_thinkster" href="https://thinkster.io/tutorials/learn-redux">Lab: Learn the Fundamentals of Redux</a>
+* Do the first `thinkster` lab <a target="_thinkster" href="https://thinkster.io/tutorials/learn-redux">Lab: Learn the Fundamentals of Redux</a>
+* Optionally you can create your own git branch to save your labs. Launch a new terminal:
+```
+cd react-redux-realworld-example-app
+git branch mylabs
+git checkout mylabs
+```
 * Add Redux store with `createStore()`
 * Add DevTools to `createStore()` as on the previous page:
 
