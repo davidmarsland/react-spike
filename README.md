@@ -579,13 +579,10 @@ For a basic Redux store simply add:
 
 ---
 ### Routing in React
-* Package `react-router`
-* <a target="_ref" href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a>
-* <a target="_ref" href="https://github.com/ReactTraining/react-router">https://github.com/ReactTraining/react-router</a>
-* <a target="_ref" href="https://github.com/reactjs/react-router-tutorial">react-router tutorial https://github.com/reactjs/react-router-tutorial</a>
+* <a target="_ref" href="https://medium.com/@thejasonfile/basic-intro-to-react-router-v4-a08ae1ba5c42">Intro to React Router v4</a>
 
 ---
-### Lab: Adding react-router
+### Lab: Adding React Router
 <a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/communicating-across-multiple-components">React Router</a>
 * <a target="_reduxsolutions" href="./redux-solutions/mars04router">Lab Solution Online</a>
 
@@ -624,6 +621,10 @@ For a basic Redux store simply add:
 
 * <a target="_ref" href="https://survivejs.com/react/introduction/">Survive JS - Webpack and React Book</a>
 
+* <a target="_ref" href="https://github.com/ReactTraining/react-router">https://github.com/ReactTraining/react-router</a>
+
+* <a target="_ref" href="https://github.com/reactjs/react-router-tutorial">react-router tutorial https://github.com/reactjs/react-router-tutorial</a>
+
 ---
 ### Redux Video Course by Wes Bos
 
@@ -653,6 +654,8 @@ For a basic Redux store simply add:
 ### Routing with Backbone and React
 * React Quickly has a Backbone routing example in Ch. 13
 * <a target="_ref" href="https://github.com/azat-co/react-quickly/tree/master/ch13">https://github.com/azat-co/react-quickly/tree/master/ch13</a>
+
+---
 ### Backbone router to render React components by doing the following:
 * Defining a router class with the routes object as a mapping from URL fragments to functions
 * Rendering React elements in the methods/functions of the Backbone Router class
@@ -661,6 +664,7 @@ For a basic Redux store simply add:
 ---
 ### React Native Intro
 <a target="_ref" href="https://www.slideshare.net/ModusJesus/intro-to-react-native">Intro to React Native</a>
+
 ---
 ### Resources to learn more
 * <a target="_ref" href="http://reactquickly.co/demos">http://reactquickly.co/demos</a>
