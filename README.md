@@ -547,17 +547,44 @@ For a basic Redux store simply add:
 * <a target="_reduxsolutions" href="./redux-solutions/mars01todos">Lab Solution Online</a>
 
 ---
-### Lab: Using react-redux
+### Lab: Using react-redux to Develop Conduit Site
 <a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/introducing-react-redux">Setting up react-redux</a>
 * Remember to remove App component from index.js
-* Add components folder to src and create App.js there `src/components/App.js`
-* Building Conduit Site and adding Provider
+* Add components folder to src and create App.js in  `src/components/App.js`
+* Building Conduit Site and adding `react-redux` Provider
+* Subscribing to Redux Store with `store.subscribe()`
+* Dispatching Actions with `store.dispatch()`
+* Using `mapStateToProps()` and `react-redux connect()`
 * <a target="_reduxsolutions" href="./redux-solutions/mars02conduit">Lab Solution Online</a>
 
 ---
 ### Lab: Redux with Multiple Components
 <a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/communicating-across-multiple-components">Communicating Across Multiple Components</a>
 * <a target="_reduxsolutions" href="./redux-solutions/mars03conduitloading">Lab Solution Online</a>
+
+---
+### Lab: Communicating Across Multiple Components and AJAX Calls
+<a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/react-redux-ajax-middleware">AJAX Middleware</a>
+* Making AJAX calls with `superagent` HTTP client library
+* <a target="_reduxsolutions" href="./redux-solutions/mars03conduitloading">Lab Solution Online</a>
+
+---
+### Lab: Loading Data Feed
+<a target="_ref" href="https://thinkster.io/tutorials/react-redux-ajax-middleware/creating-promise-middleware">Creating Promise Middleware</a>
+* Using Middleware, `Promise`, and `mapDispatchToProps` to dispatch actions asynchronously
+* <a target="_reduxsolutions" href="./redux-solutions/mars03conduitloading">Lab Solution Online</a>
+
+---
+### Routing in React
+* Package react-router 
+* <a target="_ref" href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a>
+* <a target="_ref" href="https://github.com/ReactTraining/react-router">https://github.com/ReactTraining/react-router</a>
+<a target="_ref" href="https://github.com/reactjs/react-router-tutorial">react-router tutorial https://github.com/reactjs/react-router-tutorial</a>
+
+---
+### Lab: Adding react-router
+<a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/communicating-across-multiple-components">React Router</a>
+* <a target="_reduxsolutions" href="./redux-solutions/mars04router">Lab Solution Online</a>
 
 ---
 ### Optional Lab: Catalog with React and Redux
@@ -612,14 +639,6 @@ For a basic Redux store simply add:
 ---
 ### Github Tutorial
 * <a target="_ref" href="http://kbroman.org/github_tutorial/pages/init.html">Github tutorial</a>
-
-
----
-### Routing in React
-* Package react-router 
-* <a target="_ref" href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a>
-* <a target="_ref" href="https://github.com/ReactTraining/react-router">https://github.com/ReactTraining/react-router</a>
-<a target="_ref" href="https://github.com/reactjs/react-router-tutorial">react-router tutorial https://github.com/reactjs/react-router-tutorial</a>
 
 ---
 ### Routing with Backbone and React
