@@ -137,6 +137,7 @@ Web Development since the Dawn of the Web <br>
 * <a target="_ref" href="https://blog.keepsite.com/a-brief-history-of-the-web-809509ba23df">A Brief History of the Web</a>
 
 * <a target="_ref" href="http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/#/?_k=8f5q6o">The (R)Evolution of Web Development by Mark Erikson</a>
+
 ---
 ### Modern Web Development with React and Redux
 <a target="_isquared" href="http://blog.isquaredsoftware.com/presentations/2017-02-react-redux-intro/#/0">Modern Web Development with React and Redux by Mark Erikson</a>
@@ -495,13 +496,6 @@ For a basic Redux store simply add:
  );
 ```
 
-
-
-
-
-#### Redux Course Notes
-* <a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">Redux Course Notes</a>
-
 ---
 
 ### Redux Todo Example App from Redux Course 
@@ -609,6 +603,7 @@ For a basic Redux store simply add:
 
 * <a target="_ref" href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">Part 2: Building React Applications with Idiomatic Redux (27 free videos)</a>
 
+* <a target="_ref" href="https://github.com/tayiorbeii/egghead.io_redux_course_notes">Redux Course Notes</a>
 
 ---
 ### More React and Redux Learning Resources
