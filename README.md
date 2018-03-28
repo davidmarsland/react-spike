@@ -570,16 +570,19 @@ For a basic Redux store simply add:
 
 ---
 ### Lab: Loading Data Feed
-<a target="_ref" href="https://thinkster.io/tutorials/react-redux-ajax-middleware/creating-promise-middleware">Creating Promise Middleware</a>
+<a target="_thinkster" href="https://thinkster.io/tutorials/react-redux-ajax-middleware/creating-promise-middleware">Creating Promise Middleware</a>
 * Using Middleware, `Promise`, and `mapDispatchToProps` to dispatch actions asynchronously
+<a target="_ref" href="https://thinkster.io/tutorials/react-redux-ajax-middleware/displaying-retrieved-data">Displaying Retrieved Data in Components</a>
+* Update `reducer` to handle `action HOME_PAGE_LOADED`
+* Build `ArticlePreview` component
 * <a target="_reduxsolutions" href="./redux-solutions/mars03conduitfeed">Lab Solution Online</a>
 
 ---
 ### Routing in React
-* Package react-router 
+* Package `react-router`
 * <a target="_ref" href="https://reacttraining.com/react-router/">https://reacttraining.com/react-router/</a>
 * <a target="_ref" href="https://github.com/ReactTraining/react-router">https://github.com/ReactTraining/react-router</a>
-<a target="_ref" href="https://github.com/reactjs/react-router-tutorial">react-router tutorial https://github.com/reactjs/react-router-tutorial</a>
+* <a target="_ref" href="https://github.com/reactjs/react-router-tutorial">react-router tutorial https://github.com/reactjs/react-router-tutorial</a>
 
 ---
 ### Lab: Adding react-router
