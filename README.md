@@ -587,6 +587,10 @@ For a basic Redux store simply add:
 * More Advanced Online Training Available on <a target="_ref" href="https://thinkster.io/">thinkster.io</a>
 
 ---
+### React Redux Tutorial: Learning Redux in 2018
+
+<a target="_ref" href="https://www.valentinog.com/blog/react-redux-tutorial-beginners/">React Redux Tutorial for Beginners: learning Redux in 2018</a> by Valentino Gagliardi
+
 ### Optional Lab: Catalog with React and Redux
 * Port your simple catalog in React to use Redux for state management
 * Previously, you modularized this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
