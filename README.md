@@ -475,7 +475,7 @@ State Management with React and Redux</a>
 
 
 ---
-### Redux example and Lab
+### Redux Example and Lab
 <a target="_ref" href="https://csb-62zvqom7kk-janthncuwn.now.sh/">
 Redux Example Incrementer</a>
 
@@ -484,8 +484,8 @@ Redux Example Incrementer</a>
 
 <a target="_ref" href="https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en">Redux DevTools - Chrome Web Store</a>
 
-Note must add a line to source code to enable tooling.  Try this on a Redux example without this and it will provide instructions:
-    No store found. Make sure to follow the <a target="_ref" href="https://github.com/zalmoxisus/redux-devtools-extension#usage">instructions</a>.
+Note, you must add a line to source code to enable tooling.  Try this on a Redux example without this and it will provide instructions:
+<br>*No store found. Make sure to follow the <a target="_ref" href="https://github.com/zalmoxisus/redux-devtools-extension#usage">instructions</a>.*
 
 For a basic Redux store simply add:            
 ```JavaScript
@@ -527,7 +527,7 @@ git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app
 
 ---
 ### Lab: Learn the Fundamentals of Redux
-* Do the first lab <a target="_ref" href="https://thinkster.io/tutorials/learn-redux">Lab: Learn the Fundamentals of Redux</a>
+* Do the first lab <a target="_thinkster" href="https://thinkster.io/tutorials/learn-redux">Lab: Learn the Fundamentals of Redux</a>
 * Add Redux store with `createStore()`
 * Add DevTools to `createStore()` as on the previous page:
 
@@ -572,7 +572,7 @@ For a basic Redux store simply add:
 ### Lab: Loading Data Feed
 <a target="_thinkster" href="https://thinkster.io/tutorials/react-redux-ajax-middleware/creating-promise-middleware">Creating Promise Middleware</a>
 * Using Middleware, `Promise`, and `mapDispatchToProps` to dispatch actions asynchronously
-<a target="_ref" href="https://thinkster.io/tutorials/react-redux-ajax-middleware/displaying-retrieved-data">Displaying Retrieved Data in Components</a>
+<a target="_thinkster" href="https://thinkster.io/tutorials/react-redux-ajax-middleware/displaying-retrieved-data">Displaying Retrieved Data in Components</a>
 * Update `reducer` to handle `action HOME_PAGE_LOADED`
 * Build `ArticlePreview` component
 * <a target="_reduxsolutions" href="./redux-solutions/mars03conduitfeed">Lab Solution Online</a>
@@ -588,6 +588,10 @@ For a basic Redux store simply add:
 ### Lab: Adding react-router
 <a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/communicating-across-multiple-components">React Router</a>
 * <a target="_reduxsolutions" href="./redux-solutions/mars04router">Lab Solution Online</a>
+
+---
+# More Advanced Training Available from Thinkster.io
+* <a target="_thinkster" href="https://thinkster.io/topics/react">Advanced React and Redux Online Training (need PRO subscription)</a>
 
 ---
 ### Optional Lab: Catalog with React and Redux
