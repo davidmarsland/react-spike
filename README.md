@@ -572,7 +572,7 @@ For a basic Redux store simply add:
 ### Lab: Loading Data Feed
 <a target="_ref" href="https://thinkster.io/tutorials/react-redux-ajax-middleware/creating-promise-middleware">Creating Promise Middleware</a>
 * Using Middleware, `Promise`, and `mapDispatchToProps` to dispatch actions asynchronously
-* <a target="_reduxsolutions" href="./redux-solutions/mars03conduitloading">Lab Solution Online</a>
+* <a target="_reduxsolutions" href="./redux-solutions/mars03conduitfeed">Lab Solution Online</a>
 
 ---
 ### Routing in React
