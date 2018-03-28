@@ -590,8 +590,10 @@ For a basic Redux store simply add:
 * <a target="_reduxsolutions" href="./redux-solutions/mars04router">Lab Solution Online</a>
 
 ---
-# More Advanced Training Available from Thinkster.io
+### More Advanced Training Available from Thinkster.io
 * <a target="_thinkster" href="https://thinkster.io/topics/react">Advanced React and Redux Online Training (need PRO subscription)</a>
+
+* More Advanced Online Training Available on <a target="_ref" href="https://thinkster.io/">thinkster.io</a>
 
 ---
 ### Optional Lab: Catalog with React and Redux
