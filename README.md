@@ -516,8 +516,12 @@ npm run start
 ```
 git clone -b 00 https://github.com/gothinkster/react-redux-realworld-example-app.git
 ```
-
-* Create a free account and/or login with github
+Then `npm install` to download node modules (may take a while on windows) and `npm start` to run a development server
+```
+npm install
+npm run start
+```
+* Create a free account and/or login with github on <a target="_thinkster" href="https://thinkster.io/tutorials/learn-redux/">Thinkster: Learn The Fundamentals of Redux from thinkster.io</a>
 
 ---
 ### Lab: Learn the Fundamentals of Redux
