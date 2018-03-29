@@ -527,11 +527,14 @@ npm run start
 ---
 ### Lab: Learn the Fundamentals of Redux
 * Do the first `thinkster` lab <a target="_thinkster" href="https://thinkster.io/tutorials/learn-redux">Lab: Learn the Fundamentals of Redux</a>
-* Optionally you can create your own git branch to save your labs. Launch a new terminal:
+* Optionally you can create your own git branch to save your labs. From a new terminal or powershell:
 ```
 cd react-redux-realworld-example-app
-git branch mylabs
-git checkout mylabs
+git branch mylabs00start
+git checkout mylabs00start
+git commit -am "starting point for labs"
+git checkout -b mylabs01reduxtodos
+git branch
 ```
 * Add Redux store with `createStore()`
 * Add DevTools to `createStore()` as on the previous page:
@@ -540,7 +543,7 @@ For a basic Redux store simply add:
 ```JavaScript
  const store = createStore(
    reducer, /* preloadedState, */
-+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
  );
 ```
 
@@ -551,6 +554,12 @@ For a basic Redux store simply add:
 * Display checkbox tied to state
 * <a target="_reduxsolutions" href="./redux-solutions/mars01todos">Lab Solution Online</a>
 
+Optionally when you're done you can commit your work and diff, then create and checkout a new branch for the next lab. 
+```
+git commit -am "Added redux store, reducer, and dispatch to todos checkbox"
+git diff -b mylabs00start
+git checkout -b mylabs02conduit
+```
 ---
 ### Lab: Using react-redux to Develop Conduit Site
 <a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/introducing-react-redux">Setting up react-redux</a>
@@ -562,15 +571,28 @@ For a basic Redux store simply add:
 * Using `mapStateToProps()` and `react-redux connect()`
 * <a target="_reduxsolutions" href="./redux-solutions/mars02conduit">Lab Solution Online</a>
 
+
+Optionally when you're done:
+```
+git commit -am "Started Conduit site with react-redux"
+git diff -b mylabs01reduxtodos
+git checkout -b mylabs03conduitloading
+```
 ---
 ### Lab: Redux with Multiple Components
 <a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/communicating-across-multiple-components">Communicating Across Multiple Components</a>
 * <a target="_reduxsolutions" href="./redux-solutions/mars03conduitloading">Lab Solution Online</a>
 
+Optionally when you're done:
+```
+git commit -am "Added comm across multiple components to loading..."
+git diff -b mylabs02conduit
+git checkout -b mylabs04conduitfeed
+```
 ---
 ### Lab: Communicating Across Multiple Components and AJAX Calls
 <a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/react-redux-ajax-middleware">AJAX Middleware</a>
-* Making AJAX calls with `superagent` HTTP client library
+* Making AJAX calls with `superagent` HTTP client library to lead conduit data feed
 * <a target="_reduxsolutions" href="./redux-solutions/mars03conduitloading">Lab Solution Online</a>
 
 ---
@@ -582,6 +604,13 @@ For a basic Redux store simply add:
 * Build `ArticlePreview` component
 * <a target="_reduxsolutions" href="./redux-solutions/mars03conduitfeed">Lab Solution Online</a>
 
+Optionally when you're done:
+```
+git commit -am "Loaded data feed and dispatched actions"
+git diff -b mylabs03conduitloading
+git checkout -b mylabs05router
+git branch
+```
 ---
 ### Routing in React
 * <a target="_ref" href="https://medium.com/@thejasonfile/basic-intro-to-react-router-v4-a08ae1ba5c42">Intro to React Router v4</a>
@@ -591,6 +620,12 @@ For a basic Redux store simply add:
 <a target="_thinkster" href="https://thinkster.io/tutorials/setting-up-react-redux/communicating-across-multiple-components">React Router</a>
 * <a target="_reduxsolutions" href="./redux-solutions/mars04router">Lab Solution Online</a>
 
+Optionally, when you're done:
+```
+git commit -am "Added react-router Links"
+git diff -b mylabs04conduitfeed
+git branch
+```
 ---
 ### More Advanced Training Available from Thinkster.io
 * <a target="_thinkster" href="https://thinkster.io/topics/react">Advanced React and Redux Online Training (need PRO subscription)</a>
@@ -602,6 +637,7 @@ For a basic Redux store simply add:
 
 <a target="_ref" href="https://www.valentinog.com/blog/react-redux-tutorial-beginners/">React Redux Tutorial for Beginners: learning Redux in 2018</a> by Valentino Gagliardi
 
+---
 ### Optional Lab: Catalog with React and Redux
 * Port your simple catalog in React to use Redux for state management
 * Previously, you modularized this code <a target="_ref" href="https://reactjs.org/docs/thinking-in-react.html">Thinking in React Shopping https://reactjs.org/docs/thinking-in-react.html</a>
