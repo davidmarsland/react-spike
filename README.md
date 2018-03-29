@@ -79,6 +79,16 @@ npm install -g eslint
 ```
 
 ---
+#### Ensure that you have `git` installed
+In a terminal, powershell, or cmd prompt:
+```
+git --version
+```
+Should be greater than 2.0
+
+#### If needed, install `git` from <a target="_setup" href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>
+
+---
 ### Create and run your first React app!
 
 Try creating and running a starter app with create-react-app
@@ -780,4 +790,4 @@ state with Flux and Redux
 <br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-spike/">https://davidmarsland.github.io/react-spike/</a>
 ### Thanks, please fill out course eval now, your comments are greatly appreciated!
-<a target="_ref" href="https://www.surveymonkey.com/r/9MNKGZ7">React Training Survey</a>
+
