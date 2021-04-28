@@ -1,10 +1,7 @@
 ### Welcome to React Training
 #### Instructor: David Marsland
 <br>
-<img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
-<br>
-<a target="_di" href="http://developintelligence.com">DevelopIntelligence.com</a>
-<br>
+
 <a target="_git_react" href="https://davidmarsland.github.io/react-spike/">https://davidmarsland.github.io/react-spike/</a>
 
 ---
@@ -785,9 +782,6 @@ state with Flux and Redux
 ---
 ### Congratulations, you are now all React Developers!
 
-<a target="_di" href="http://developintelligence.com"><img src="http://www.developintelligence.com/sites/all/themes/diresponsive/images/Develop-Intelligence-logo-f.png">
-</a>
 <br>
 <a target="_git_react" href="https://davidmarsland.github.io/react-spike/">https://davidmarsland.github.io/react-spike/</a>
-### Thanks, please fill out course eval now, your comments are greatly appreciated!
 
